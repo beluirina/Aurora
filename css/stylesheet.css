@@ -27,7 +27,7 @@ html{
 }
 
 h1 {
-    width: 200px;
+    width: 180px;
     display: inline-block;
     position: relative;
     top: 9px;
@@ -36,7 +36,7 @@ h1 {
 }
 #logo img{
     position: absolute;
-    width: 200px;
+    width: 180px;
     top: -20px;
     left: 0px;
 }
@@ -486,11 +486,11 @@ ul{
 
 }
 .DOC h2{
-    padding-left: 80px;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-left: 60px;
+    padding-top: 8%;
+    padding-bottom: 3%;
     font-weight: 1000;
-    font-size: xx-large;
+    font-size: x-large;
 
 }
 .DOC h3{
@@ -507,7 +507,7 @@ ul{
     margin: 50px;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
     padding: 30px;
-    width: 48%;
+    width: 50%;
     display: flex;
 }
 #exceptionText{
@@ -523,7 +523,7 @@ aside{
     margin-top: -50px;
 }
 aside img{
-    width: 650px;
+    width: 580px;
 }
 .doc-footer{
     position: fixed;
