@@ -395,8 +395,8 @@ ul{
 }
 .display-grid{
     display: grid;
-    grid-template-columns:30%;
-    grid-template-rows: 220px 177px 280px 100px;
+    grid-template-columns:10%;
+    grid-template-rows: 180px 177px 250px 100px;
     grid-template-areas: "pic1"
                          "pic1"
                          "pic2"
@@ -417,10 +417,10 @@ ul{
 
 .galleryfooter{
     background-image: url(/img/horizontal-bottom.jpg);
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-position-y: -25px;
-    height: 100px;
+    height: 80px;
 
 }
 
