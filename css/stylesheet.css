@@ -124,6 +124,10 @@ a:link, a:visited {
     z-index: 9;
     width: 100%;
 }
+.footerGallery{
+    position: relative;
+    margin-top: -0.3%;
+}
 
 
 
@@ -311,12 +315,6 @@ footer{
 /*MUSIC VIDEO - HTML*/
 nav.black{
     background: black;
-
-}
-.PSetUNDER{
-    font-size: 0;
-    position: absolute;
-    top: 940px;
 
 }
 .YTsubscribe{
