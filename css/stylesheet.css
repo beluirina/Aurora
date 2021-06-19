@@ -25,7 +25,9 @@ html{
     background-image:url(../img/header.jpg);
    height: 100vh;
 }
-
+.main{
+    width: 200px;
+  }
 h1 {
     width: 180px;
     display: inline-block;
