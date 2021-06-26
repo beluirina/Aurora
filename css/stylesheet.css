@@ -25,6 +25,11 @@ html{
     background-image:url(../img/header.jpg);
    height: 100vh;
 }
+.HeaderHome .explore a{
+    position: relative;
+    top: -20px;
+}
+
 .main{
     width: 200px;
   }
@@ -42,9 +47,17 @@ h1 {
     top: -20px;
     left: 0px;
 }
+.HeaderHome .explore h1 a img{
+    position: relative;
+  top: 10px;
+  width: 200px;
+  
+}
+.HeaderHome h1{
+    width: 200px;
+}
 
 nav.explore {
-    
     height: 90px;
     text-align: center;
     clear: both;
@@ -90,6 +103,9 @@ a:link, a:visited {
     display: inline-block;
     width: 100%;
     margin-bottom: 50px;
+}
+#getToKnow p{
+    font-size: 90%;
 }
 #getToKnow article div h2::after {
     content: '';
@@ -350,9 +366,14 @@ nav.black{
     margin-top: 1%;
     color: #86c0e2;
 }
-.tag-canceled, .primary-detail{
-    font-weight: bold;
+.tag-canceled{
+    font-size: 120%;
+    padding: 7px;
+}
+.primary-detail{
     color: black;
+    font-weight: bold;
+    font-family: 150%;
 }
 .date{
     font-size: 150%;
@@ -389,7 +410,6 @@ ul{
     padding: 5%;
 }
 
-
 /*GALLERY*/
 .pics{
     float: right;
@@ -397,7 +417,7 @@ ul{
 .display-grid{
     display: grid;
     grid-template-columns:10%;
-    grid-template-rows: 180px 177px 250px 100px;
+    grid-template-rows: 160px 190px 250px 100px;
     grid-template-areas: "pic1"
                          "pic1"
                          "pic2"
@@ -429,7 +449,13 @@ ul{
     overflow: hidden;
     width: 100%;
 }
-
+.gallB{
+    color: #ffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    position: relative;
+}
 
 
 /*SLIDER*/
@@ -557,3 +583,4 @@ a.darken:hover img {
 
 
 
+/*MEDIA QUERIES*/
