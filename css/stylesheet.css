@@ -457,9 +457,9 @@ ul{
     position: relative;
 }
 
-
 /*SLIDER*/
-#sliderG {
+
+/*#sliderG {
 	overflow: hidden;
 }
 #sliderG figure {
@@ -502,9 +502,7 @@ ul{
 	100% {
 		left: -400%;
 	}
-}
-
-
+}*/
 
 
 /* DOCUMENTARY - HTML*/
