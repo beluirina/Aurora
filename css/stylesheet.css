@@ -19,15 +19,10 @@ html{
     box-sizing: border-box;
 }
 
-
 /*HEADER*/
-.HeaderHome{
+.backgroundMain{
     background-image:url(../img/header.jpg);
    height: 100vh;
-}
-.HeaderHome .explore a{
-    position: relative;
-    top: -20px;
 }
 
 .main{
@@ -41,30 +36,25 @@ h1 {
     margin-left: 4px;
     margin-right: 4px;
 }
+.bottom-main-html .Auroras-pictures img{
+    width: 390px;
+}
 #logo img{
     position: absolute;
     width: 180px;
     top: -20px;
     left: 0px;
 }
-.HeaderHome .explore h1 a img{
-    position: relative;
-  top: 10px;
-  width: 200px;
-  
+.explore{
+   text-align: center;
 }
 .HeaderHome h1{
     width: 200px;
 }
-
-nav.explore {
-    height: 90px;
-    text-align: center;
-    clear: both;
+.h2main-you{
     position: relative;
-    top: 0px;
-    padding: 6px;
-    width: 100%;
+    top: 60%;
+    left: 10%;
 }
 .h2main{
     font-weight: lighter;
@@ -80,6 +70,9 @@ a:link, a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+
+
+
 
 /*MainHtml*/
 .social-media{
@@ -133,22 +126,27 @@ a:link, a:visited {
 .clearfix{
     clear:both;
 }
+.footerGallery{
+    position: relative;
+    margin-top: -0.3%;
+}
+
 .footerMain{
-    background: #da9e66ea;
+    margin-top: 60px;
+}
+.footerMain nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    background: #faae67;
     color: white;
-    text-align: center;
     height:50px;
     line-height: 50px;
     position: absolute;
     z-index: 9;
     width: 100%;
 }
-.footerGallery{
-    position: relative;
-    margin-top: -0.3%;
-}
-
-
 
 
 /*FORUM*/
@@ -506,6 +504,9 @@ ul{
 
 
 /* DOCUMENTARY - HTML*/
+.docuHeader{
+    height: 70px;
+}
 .DOC P, .DOC h2, .DOC h3 {
     color: grey;
 
@@ -582,3 +583,202 @@ a.darken:hover img {
 
 
 /*MEDIA QUERIES*/
+@media screen and (max-width: 320px) {
+    .HeaderHomeMQ {
+     height: 100vh;
+     background-image: url(/img/backMQ.png)!important;
+     background-repeat: no-repeat;
+     background-size: 100%;
+    }
+    body, html {     
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        overflow-x: hidden; 
+      }
+.explore{
+    display: none;
+}
+.mainMQ, .logoMQ{
+    position: absolute;
+    width: 700px;
+    width: 160px;
+    filter: drop-shadow(1px 3px 3px black);
+    top: -50px;
+    left: 45%;
+  }
+
+h1 {
+    width: 200px;
+    
+}
+
+.HeaderHomeMQ .exploreMQ h1 a img{
+    position: relative;
+}
+.HeaderHome{
+    display: none;
+}
+
+nav.exploreMQ{
+    height: 90px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    top: 0px;
+    padding: 6px;
+    width: 100%;
+}
+ article .h2main{
+    font-size: 300%;
+    position: relative;
+    left: -70px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 140px; 
+    padding-bottom: 180px;
+}
+ .social-media img{
+   height:60px;
+    width:60px;
+}
+.Auroras-pictures{
+    height:500px;
+    margin-left: 30px;
+    width: 54%;
+    display: inline-block;
+}
+.bottom-main-html{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#getToKnow p{
+    font-size: 90%;
+}
+#getToKnow article div h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+
+    transform: scaleX(.01);
+    transform-origin: left;
+    transition: transform 350ms ease-in;
+
+}
+
+.offcanvas-body a{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+  main #getToKnow, main .Auroras-pictures{
+        position: relative;
+        left: -10px;
+    }
+    .h2main-you{
+        display: none;
+    }
+    .h2main{
+        font-size: 20px;
+        width: 100%;
+    }
+    #getToKnow p{ /*parece desprolijo que quede en negativo, eso es normal?*/
+        position: relative;
+        left: -50px;
+        width: 280px;
+    }
+    .social-media img{
+        width: 30px;
+        height: auto;
+
+    }
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 280px;
+        position: relative;
+        left: -50px;
+        padding-top: 90px; 
+        padding-bottom: 130px;
+    }
+    .bottom-main-html .Auroras-pictures img{
+        height: auto;
+        width: 280px;
+        padding-bottom: 10px;
+    }
+
+
+    /*FOOTER PHONE*/
+.footerMain{
+        margin-top: 0px;
+    }
+.footerMain{
+
+    background: #ff9736;
+    color: white;
+    text-align: center;
+    line-height: 0px;
+    height: auto;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+.footerMain nav ul{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    line-height: 30px;
+    
+}
+
+    /*FORUM PHONE*/
+    .wrapper{
+        position: relative;
+        height: 550px;
+        left: 30px;
+        bottom: -80px;
+        background: #fff;
+        padding: 30px;
+        margin-top: 100px;
+        width: 100%;
+    }  
+    .wrapper .form .inputfield{
+        margin-left: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .wrapper .form .inputfield .btn, .wrapper .button{
+        margin-top: 10px;
+    }   
+
+    .btn{
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+
+    }
+  }
+  
+  @media screen and (min-width: 500px){
+    .MQ, .logoMQ, .mainMQ{
+        display: none;
+        visibility: hidden;
+    }
+
+320
+
+768
+
+1024
