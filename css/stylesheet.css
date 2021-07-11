@@ -407,6 +407,7 @@ ul{
     padding: 5%;
 }
 
+
 /*GALLERY*/
 .pics{
     float: right;
@@ -453,10 +454,16 @@ ul{
     font-family: "helvetica neue",helvetica,arial,sans-serif;
     position: relative;
 }
+nav.explore{
+    height: 80px;
+}
+.galleryE{
+    background-color: black;
+
+}
 
 /*SLIDER*/
-
-/*#sliderG {
+#sliderG {
 	overflow: hidden;
 }
 #sliderG figure {
@@ -499,7 +506,8 @@ ul{
 	100% {
 		left: -400%;
 	}
-}*/
+}
+
 
 
 /* DOCUMENTARY - HTML*/
