@@ -1,7 +1,7 @@
 
 /*GENERAL*/
 body{
-   background-color: #7c6096c5;
+   background-color: #686599c5;
 }
 *{
     color: white;
@@ -19,10 +19,16 @@ html{
 
 /*HEADER*/
 .backgroundMain{
-    background-image:url(../img/header.jpg);
+    padding-top: 50px;
+    filter: drop-shadow(1px 3px 30px rgba(0, 0, 0, 0.322));
+    background-image:url(/aurora_cure_for_me_1.jpg);
    height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
-
+span{
+    color: black;
+}
 .main{
     width: 200px;
   }
@@ -36,7 +42,9 @@ h1 {
 }
 .bottom-main-html .Auroras-pictures img{
     width: 390px;
+    
 }
+
 #logo img{
     position: absolute;
     width: 180px;
@@ -81,8 +89,8 @@ a:link, a:visited {
     padding-bottom: 180px;
 }
  .social-media img{
-   height:60px;
-    width:60px;
+   height:50px;
+    width:50px;
 }
 .Auroras-pictures{
     height:500px;
@@ -130,14 +138,14 @@ a:link, a:visited {
 }
 
 .footerMain{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .footerMain nav ul{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    background: #faae67;
+    background: #707fb3;
     color: white;
     height:50px;
     line-height: 50px;
@@ -169,7 +177,7 @@ a:link, a:visited {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #fec107;
+  color: #707fb3;
   text-transform: uppercase;
   text-align: center;
 }
@@ -237,7 +245,7 @@ a:link, a:visited {
    padding: 8px 10px;
   font-size: 15px; 
   border: 0px;
-  background:  #fec107;
+  background:  #707fb3;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -248,14 +256,14 @@ a:link, a:visited {
      padding: 8px 10px;
     font-size: 15px; 
     border: 0px;
-    background:  #fec107;
+    background:  #707fb3;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
     outline: none;
   }
 .wrapper .form .inputfield .btn:hover .button:hover{
-  background: #ffd658;
+  background: #707fb3;
 }
 
 .bottom-main-html{    
