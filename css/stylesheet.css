@@ -1,7 +1,5 @@
 
 /*GENERAL*/
-
-
 body{
    background-color: #7c6096c5;
 }
@@ -332,6 +330,7 @@ footer{
 /*MUSIC VIDEO - HTML*/
 nav.black{
     background: black;
+    height: 80px;
 
 }
 .YTsubscribe{
@@ -776,3 +775,4 @@ nav.exploreMQ{
         display: none;
         visibility: hidden;
     }
+}
