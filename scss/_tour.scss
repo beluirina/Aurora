@@ -1,67 +1,8 @@
 @media screen and (min-width: 700px) {
 
 /*TOUR - HTML*/
-.TourBck{
-    background-image:url("/img/tour.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffff;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "helvetica neue",helvetica,arial,sans-serif;
-    position: relative;
-    
-}
-    .worldTour{
-        font-size: 300%;
-        width: auto;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 15%;
-        margin-top: 1%;
-        color: #86c0e2;
-        #tourdates{
-            display: flex;
-            flex-flow: column wrap;
-            column-gap: 10px;
-            font-size: 14px;
-            height: 600px;
-            padding-top: 30px;
-            padding-left: 5%;
-            width: 300px;
-                
-                .event-details{
-                    background-color: white;
-                    width: 200px;
-                    padding: 5%;
-                    .tag-canceled{
-                        font-size: 120%;
-                        padding: 7px;
-                        background-color: red;
-                        color: white;
-                    }
-                    .date{
-                        font-size: 150%;
-                        color: blueviolet;
-                        font-weight: 30mm;
-                    }
-                    .primary-detail{
-                        color: black;
-                        font-weight: bold;
-                        font-family: 150%;
-                    }
-                    .secondary-detail{
-                        color: black;
-                    }
-                }
-                
-            }
-    }
 
-ul{
-    list-style-type: none;
-}
-
+/*TOUR - HTML*/
 .TourBck {
     background-image:url("../img/tour.jpg");
     background-repeat: no-repeat;
@@ -72,6 +13,7 @@ ul{
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
     position: relative;
+    
 }
 .worldTour{
     font-size: 300%;
@@ -124,4 +66,69 @@ ul{
     width: 200px;
     padding: 5%;
 }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .TourBck {
+        background-color: $colorMainIndex;
+        color: #ffff;
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: "helvetica neue",helvetica,arial,sans-serif;
+        position: relative;
+    }
+    .worldTour{
+       
+        font-size: 300%;
+        width: auto;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 15%;
+        margin-top: 5%;
+        color: #86c0e2;
+    }
+    .tag-canceled{
+        font-size: 120%;
+        padding: 7px;
+    }
+    .primary-detail{
+        color: black;
+        font-weight: bold;
+        font-family: 150%;
+    }
+    .date{
+        font-size: 150%;
+        color: blueviolet;
+        font-weight: 30mm;
+    }
+    .secondary-detail{
+        color: black;
+    }
+    .tourbott{
+        position: fixed;
+        bottom: 0%;
+    }
+    .tag-canceled{
+        background-color: red;
+        color: white;
+    }
+    #tourdates{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: left;
+        column-gap: 10px;
+        font-size: 14px;
+        height: 900px;
+        padding-top: 30px;
+        padding-left: 5%;
+        width: 300px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .event-details{
+        background-color: white;
+        width: 200px;
+        padding: 5%;
+    }
 }

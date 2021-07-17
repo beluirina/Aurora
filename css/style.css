@@ -195,349 +195,6 @@
       color: white;
       text-decoration: none; } }
 
-@media screen and (min-width: 700px) {
-  /* DOCUMENTARY - HTML*/
-  .DOC P, .DOC h2, .DOC h3 {
-    color: grey; }
-  .DOC h2 {
-    padding-left: 40px;
-    padding-top: 8%;
-    padding-bottom: 3%;
-    font-weight: 1000;
-    font-size: x-large; }
-  .DOC h3 {
-    padding-left: 40px;
-    font-size: medium; }
-  .DOC P {
-    padding-top: 10%;
-    padding-left: 40px;
-    width: 400px; }
-  .DOC {
-    background: #fff;
-    margin: 50px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
-    padding: 30px;
-    width: 47%;
-    display: flex; }
-  #exceptionText {
-    font-size: small;
-    color: grey; }
-  aside {
-    display: flex;
-    justify-content: right;
-    float: right;
-    position: absolute;
-    left: 58%;
-    margin-top: -50px; }
-  .docuAside {
-    width: 580px; }
-  .doc-footer {
-    position: fixed;
-    bottom: 0%; }
-  .docu img {
-    order: -1; }
-  a.darken {
-    display: inline-block;
-    background: black;
-    padding: 0; }
-  a.darken img {
-    display: block;
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    transition: all 0.5s linear; }
-  a.darken:hover img {
-    opacity: 0.7; } }
-
-@media screen and (min-width: 700px) {
-  /*GALLERY*/
-  .pics {
-    float: right; }
-  .display-grid {
-    display: grid;
-    grid-template-columns: 10%;
-    grid-template-rows: 160px 190px 250px 100px;
-    grid-template-areas: "pic1" "pic1" "pic2" "pic3"; }
-  .pic3 {
-    grid-area: pic3;
-    display: flex;
-    align-content: bottom; }
-  .pic1 {
-    grid-area: pic1; }
-  .pic2 {
-    grid-area: pic2; }
-  .galleryfooter {
-    background-image: url(/img/horizontal-bottom.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-position-y: -25px;
-    height: 80px; }
-  #gallery {
-    overflow: hidden;
-    width: 100%; }
-  .gallB {
-    color: #ffff;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "helvetica neue",helvetica,arial,sans-serif;
-    position: relative; }
-  nav.explore {
-    height: 80px; }
-  .galleryE {
-    background-color: black; }
-  /*SLIDER*/
-  #sliderG {
-    overflow: hidden; }
-  #sliderG figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 30s slider infinite; }
-  #sliderG figure img {
-    float: left;
-    width: 20%; }
-  @keyframes slider {
-    0% {
-      left: 0; }
-    20% {
-      left: 0; }
-    25% {
-      left: -100%; }
-    45% {
-      left: -100%; }
-    50% {
-      left: -200%; }
-    70% {
-      left: -200%; }
-    75% {
-      left: -300%; }
-    95% {
-      left: -300%; }
-    100% {
-      left: -400%; } }
-  /*GALLERY*/
-  .pics {
-    float: right; }
-  .display-grid {
-    display: grid;
-    grid-template-columns: 10%;
-    grid-template-rows: 160px 190px 250px 100px;
-    grid-template-areas: "pic1" "pic1" "pic2" "pic3"; }
-  .pic3 {
-    grid-area: pic3;
-    display: flex;
-    align-content: bottom; }
-  .pic1 {
-    grid-area: pic1; }
-  .pic2 {
-    grid-area: pic2; }
-  .galleryfooter {
-    background-image: url(/img/horizontal-bottom.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-position-y: -25px;
-    height: 80px; }
-  #gallery {
-    overflow: hidden;
-    width: 100%; }
-  .gallB {
-    color: #ffff;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "helvetica neue",helvetica,arial,sans-serif;
-    position: relative; }
-  nav.explore {
-    height: 80px; }
-  .galleryE {
-    background-color: black; }
-  /*SLIDER*/
-  #sliderG {
-    overflow: hidden; }
-  #sliderG figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 30s slider infinite; }
-  #sliderG figure img {
-    float: left;
-    width: 20%; }
-  @keyframes slider {
-    0% {
-      left: 0; }
-    20% {
-      left: 0; }
-    25% {
-      left: -100%; }
-    45% {
-      left: -100%; }
-    50% {
-      left: -200%; }
-    70% {
-      left: -200%; }
-    75% {
-      left: -300%; }
-    95% {
-      left: -300%; }
-    100% {
-      left: -400%; } } }
-
-@media screen and (min-width: 700px) {
-  /*MUSIC VIDEO - HTML*/
-  nav.black {
-    background: black;
-    height: 80px; }
-  .YTsubscribe {
-    position: absolute;
-    top: 130px;
-    left: 30px; } }
-
-@media screen and (min-width: 700px) {
-  /*SPOTIFY*/
-  .musicBody {
-    background: #2f1c53;
-    background: linear-gradient(22deg, #2f1c53 0%, #a46dff 21%, #f6d1fd 74%);
-    background-repeat: no-repeat;
-    background-attachment: fixed; }
-    .musicBody .musicMain {
-      background-color: #ba9cd6;
-      margin: 50px;
-      padding-bottom: 20px; }
-      .musicBody .musicMain .music-display {
-        display: inline-block;
-        width: 100%; }
-        .musicBody .musicMain .music-display #spotify-embed {
-          display: inline-block;
-          width: 69%;
-          margin-left: 3rem;
-          margin-top: 2rem; }
-        .musicBody .musicMain .music-display #spotify-embed iframe {
-          padding: 15px; }
-        .musicBody .musicMain .music-display .profileSpot {
-          float: right;
-          width: 10%;
-          margin-top: 8%;
-          margin-right: 230px; } }
-
-@media screen and (min-width: 700px) {
-  /*TOUR - HTML*/
-  .TourBck {
-    background-image: url("/img/tour.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffff;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "helvetica neue",helvetica,arial,sans-serif;
-    position: relative; }
-  .worldTour {
-    font-size: 300%;
-    width: auto;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-top: 1%;
-    color: #86c0e2; }
-    .worldTour #tourdates {
-      display: flex;
-      flex-flow: column wrap;
-      column-gap: 10px;
-      font-size: 14px;
-      height: 600px;
-      padding-top: 30px;
-      padding-left: 5%;
-      width: 300px; }
-      .worldTour #tourdates .event-details {
-        background-color: white;
-        width: 200px;
-        padding: 5%; }
-        .worldTour #tourdates .event-details .tag-canceled {
-          font-size: 120%;
-          padding: 7px;
-          background-color: red;
-          color: white; }
-        .worldTour #tourdates .event-details .date {
-          font-size: 150%;
-          color: blueviolet;
-          font-weight: 30mm; }
-        .worldTour #tourdates .event-details .primary-detail {
-          color: black;
-          font-weight: bold;
-          font-family: 150%; }
-        .worldTour #tourdates .event-details .secondary-detail {
-          color: black; }
-  ul {
-    list-style-type: none; }
-  .TourBck {
-    background-image: url("../img/tour.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffff;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "helvetica neue",helvetica,arial,sans-serif;
-    position: relative; }
-  .worldTour {
-    font-size: 300%;
-    width: auto;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-top: 1%;
-    color: #86c0e2; }
-  .tag-canceled {
-    font-size: 120%;
-    padding: 7px; }
-  .primary-detail {
-    color: black;
-    font-weight: bold;
-    font-family: 150%; }
-  .date {
-    font-size: 150%;
-    color: blueviolet;
-    font-weight: 30mm; }
-  .secondary-detail {
-    color: black; }
-  .tourbott {
-    position: fixed;
-    bottom: 0%; }
-  .tag-canceled {
-    background-color: red;
-    color: white; }
-  #tourdates {
-    display: flex;
-    flex-flow: column wrap;
-    column-gap: 10px;
-    font-size: 14px;
-    height: 600px;
-    padding-top: 30px;
-    padding-left: 5%;
-    width: 300px; }
-  ul {
-    list-style-type: none; }
-  .event-details {
-    background-color: white;
-    width: 200px;
-    padding: 5%; } }
-
-/*footer de MVideo - tiene un espacio abajo que no puedo sacar
-nav - en todos los htmls cambia de poscicion. intente usar las mismas clases pero no pareceria funcionar. el index.html es el unico que quiero con otra posicion.*/
-* {
-  color: white;
-  margin: 0;
-  padding: 0;
-  /*box-sizing: border-box;*/
-  font-family: 'Montserrat', sans-serif; }
-  * a:visited, * a:link {
-    color: white;
-    text-decoration: none; }
-
-html {
-  overflow-x: hidden; }
-
-body {
-  background-color: #686599c5; }
-
 @media only screen and (max-width: 480px) {
   .indexHeader {
     background: url(/img/aurora_cure_for_me_3.png);
@@ -598,7 +255,8 @@ body {
     margin-top: 100px;
     width: 100%;
     float: right;
-    margin: 30px; }
+    margin: 30px;
+    margin-bottom: 4rem; }
     .wrapper .title {
       font-size: 24px;
       font-weight: 700;
@@ -669,8 +327,8 @@ body {
     width: 100%;
     height: auto;
     line-height: 30px;
-    position: fixed;
-    bottom: 0%; }
+    position: relative;
+    bottom: 0; }
     footer ul {
       display: flex;
       text-align: center;
@@ -679,6 +337,403 @@ body {
     footer a:link, footer a:visited {
       color: white;
       text-decoration: none; } }
+
+@media screen and (min-width: 700px) {
+  /* DOCUMENTARY - HTML*/
+  .DOC P, .DOC h2, .DOC h3 {
+    color: grey; }
+  .DOC h2 {
+    padding-left: 40px;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-weight: 1000;
+    font-size: x-large; }
+  .DOC h3 {
+    padding-left: 40px;
+    font-size: medium; }
+  .DOC P {
+    padding-top: 10%;
+    padding-left: 40px;
+    width: 400px; }
+  .DOC {
+    background: #fff;
+    margin: 50px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+    padding: 30px;
+    width: 47%;
+    display: flex; }
+  #exceptionText {
+    font-size: small;
+    color: grey; }
+  aside {
+    display: flex;
+    justify-content: right;
+    float: right;
+    position: absolute;
+    left: 58%;
+    margin-top: -50px; }
+  .docuAside {
+    width: 580px; }
+  .doc-footer {
+    position: fixed;
+    bottom: 0%; }
+  .docu img {
+    order: -1; }
+  a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0; }
+  a.darken img {
+    display: block;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  a.darken:hover img {
+    opacity: 0.7; } }
+
+@media only screen and (max-width: 480px) {
+  /* DOCUMENTARY - HTML*/
+  aside {
+    display: none; }
+  .DOC P, .DOC h2, .DOC h3 {
+    color: grey;
+    position: relative; }
+  .DOC h2 {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-weight: 1000;
+    font-size: x-large; }
+  .DOC h3 {
+    font-size: medium; }
+  .DOC P {
+    padding-top: 10%; }
+  #exceptionText {
+    font-size: small;
+    color: grey; }
+  .DOC {
+    width: 380px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+    padding: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; } }
+
+@media screen and (min-width: 700px) {
+  /*GALLERY*/
+  .pics {
+    float: right; }
+  .display-grid {
+    display: grid;
+    grid-template-columns: 10%;
+    grid-template-rows: 160px 190px 250px 100px;
+    grid-template-areas: "pic1" "pic1" "pic2" "pic3"; }
+  .pic3 {
+    grid-area: pic3;
+    display: flex;
+    align-content: bottom; }
+  .pic1 {
+    grid-area: pic1; }
+  .pic2 {
+    grid-area: pic2; }
+  .galleryfooter {
+    background-image: url(/img/horizontal-bottom.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+    height: 80px; }
+  #gallery {
+    overflow: hidden;
+    width: 100%; }
+  .gallB {
+    color: #ffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    position: relative; }
+  nav.explore {
+    height: 80px; }
+  .galleryE {
+    background-color: black; }
+  /*SLIDER*/
+  #sliderG {
+    overflow: hidden; }
+  #sliderG figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite; }
+  #sliderG figure img {
+    float: left;
+    width: 20%; }
+  @keyframes slider {
+    0% {
+      left: 0; }
+    20% {
+      left: 0; }
+    25% {
+      left: -100%; }
+    45% {
+      left: -100%; }
+    50% {
+      left: -200%; }
+    70% {
+      left: -200%; }
+    75% {
+      left: -300%; }
+    95% {
+      left: -300%; }
+    100% {
+      left: -400%; } } }
+
+@media only screen and (max-width: 480px) {
+  /*GALLERY*/
+  .pics {
+    display: none; }
+  #sliderG img {
+    width: 480px; }
+  nav.explore {
+    height: 100px; }
+  .galleryE {
+    background-color: black; } }
+
+@media screen and (min-width: 700px) {
+  /*MUSIC VIDEO - HTML*/
+  nav.black {
+    background: black;
+    height: 80px; }
+  .YTsubscribe {
+    position: absolute;
+    top: 130px;
+    left: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  /*MUSIC VIDEO*/
+  nav.black {
+    background: black;
+    height: 100px; }
+  .YTsubscribe {
+    position: absolute;
+    top: 130px;
+    left: 30px; } }
+
+@media screen and (min-width: 700px) {
+  /*SPOTIFY*/
+  .musicBody {
+    background: #2f1c53;
+    background: linear-gradient(22deg, #2f1c53 0%, #a46dff 21%, #f6d1fd 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    .musicBody .musicMain {
+      background-color: #ba9cd6;
+      margin: 50px;
+      padding-bottom: 20px; }
+      .musicBody .musicMain .music-display {
+        display: inline-block;
+        width: 100%; }
+        .musicBody .musicMain .music-display #spotify-embed {
+          display: inline-block;
+          width: 69%;
+          margin-left: 3rem;
+          margin-top: 2rem; }
+        .musicBody .musicMain .music-display #spotify-embed iframe {
+          padding: 15px; }
+        .musicBody .musicMain .music-display .profileSpot {
+          float: right;
+          width: 10%;
+          margin-top: 8%;
+          margin-right: 230px; } }
+
+@media only screen and (max-width: 480px) {
+  .musicBody {
+    background: #2f1c53;
+    background: linear-gradient(22deg, #2f1c53 0%, #a46dff 21%, #f6d1fd 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    .musicBody .musicMain {
+      background-color: #ba9cd6;
+      margin: 30px;
+      width: 80%;
+      padding-bottom: 20px; }
+      .musicBody .musicMain .music-display {
+        display: inline-block;
+        width: 100%; }
+        .musicBody .musicMain .music-display #spotify-embed {
+          display: inline-block;
+          margin-left: 2rem;
+          margin-top: 2rem; }
+        .musicBody .musicMain .music-display #spotify-embed iframe {
+          padding: 15px; }
+        .musicBody .musicMain .music-display .profileSpot {
+          padding-left: 4rem; }
+    .musicBody footer {
+      background-color: #707fb3;
+      color: white;
+      width: 100%;
+      height: auto;
+      line-height: 30px;
+      position: aboslute;
+      bottom: 0; }
+  /*NOSE POR QUE NO APLICA*/
+  .blackBott {
+    background-color: black; } }
+
+@media screen and (min-width: 700px) {
+  /*TOUR - HTML*/
+  /*TOUR - HTML*/
+  .TourBck {
+    background-image: url("../img/tour.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    position: relative; }
+  .worldTour {
+    font-size: 300%;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+    margin-top: 1%;
+    color: #86c0e2; }
+  .tag-canceled {
+    font-size: 120%;
+    padding: 7px; }
+  .primary-detail {
+    color: black;
+    font-weight: bold;
+    font-family: 150%; }
+  .date {
+    font-size: 150%;
+    color: blueviolet;
+    font-weight: 30mm; }
+  .secondary-detail {
+    color: black; }
+  .tourbott {
+    position: fixed;
+    bottom: 0%; }
+  .tag-canceled {
+    background-color: red;
+    color: white; }
+  #tourdates {
+    display: flex;
+    flex-flow: column wrap;
+    column-gap: 10px;
+    font-size: 14px;
+    height: 600px;
+    padding-top: 30px;
+    padding-left: 5%;
+    width: 300px; }
+  ul {
+    list-style-type: none; }
+  .event-details {
+    background-color: white;
+    width: 200px;
+    padding: 5%; } }
+
+@media only screen and (max-width: 480px) {
+  .TourBck {
+    background-color: #707fb3;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    position: relative; }
+  .worldTour {
+    font-size: 300%;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #86c0e2; }
+  .tag-canceled {
+    font-size: 120%;
+    padding: 7px; }
+  .primary-detail {
+    color: black;
+    font-weight: bold;
+    font-family: 150%; }
+  .date {
+    font-size: 150%;
+    color: blueviolet;
+    font-weight: 30mm; }
+  .secondary-detail {
+    color: black; }
+  .tourbott {
+    position: fixed;
+    bottom: 0%; }
+  .tag-canceled {
+    background-color: red;
+    color: white; }
+  #tourdates {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: left;
+    column-gap: 10px;
+    font-size: 14px;
+    height: 900px;
+    padding-top: 30px;
+    padding-left: 5%;
+    width: 300px; }
+  ul {
+    list-style-type: none; }
+  .event-details {
+    background-color: white;
+    width: 200px;
+    padding: 5%; } }
+
+/*footer de MVideo - tiene un espacio abajo que no puedo sacar
+en phone music el footer nose por que no aplica
+nav - en todos los htmls cambia de poscicion. intente usar las mismas clases pero no pareceria funcionar. el index.html es el unico que quiero con otra posicion.*/
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+  font-family: 'Montserrat', sans-serif; }
+  * a:visited, * a:link {
+    color: white;
+    text-decoration: none; }
+
+html {
+  overflow-x: hidden; }
+
+body {
+  background-color: #686599c5; }
+
+/*PHONE*/
+@media only screen and (max-width: 480px) {
+  Header h1 {
+    width: 200px; }
+  Header .explore .logo-dsk {
+    visibility: hidden; }
+  Header .explore .offcanvas-body a {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    font-size: 30px; }
+  Header .explore .btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none; }
+    Header .explore .btn p {
+      font-size: 50px; }
+  Header .dsk-menu {
+    visibility: hidden; }
+  Header h2 {
+    visibility: hidden; }
+  Header .logoPhone {
+    width: 70%;
+    top: 0;
+    position: absolute;
+    left: 20%; } }
 
 /*LAPTOP*/
 @media screen and (min-width: 700px) {

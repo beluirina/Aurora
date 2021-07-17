@@ -1,6 +1,8 @@
+$paddingleft: 40px;
+
+
 @media screen and (min-width: 700px) {
 
-    $paddingleft: 40px;
 /* DOCUMENTARY - HTML*/
 .DOC P, .DOC h2, .DOC h3 {
     color: grey;
@@ -71,5 +73,49 @@ a.darken img {
 a.darken:hover img {
     opacity: 0.7;
             
+}
+}
+
+@media only screen and (max-width: 480px) {
+    /* DOCUMENTARY - HTML*/
+    aside{
+        display: none;
+    }
+    
+  
+.DOC P, .DOC h2, .DOC h3 {
+    color: grey;
+    position: relative;
+
+}
+
+.DOC h2{
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-weight: 1000;
+    font-size: x-large;
+}
+.DOC h3{
+    font-size: medium;
+}
+.DOC P{
+    padding-top: 10%;
+}
+
+
+#exceptionText{
+    font-size: small;
+    color: grey;
+}
+.DOC{
+    width: 380px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 }

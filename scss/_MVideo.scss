@@ -11,3 +11,17 @@
         left: 30px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    /*MUSIC VIDEO*/
+    nav.black{
+        background: black;
+        height: 100px;
+
+    }
+    .YTsubscribe{
+        position: absolute;
+        top: 130px;
+        left: 30px;
+    }
+}

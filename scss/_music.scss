@@ -34,3 +34,51 @@
     
 }
 }
+
+@media only screen and (max-width: 480px) {
+   
+           
+    .musicBody{
+        background: rgb(47,28,83);
+        background: linear-gradient(22deg, rgba(47,28,83,1) 0%, rgba(164,109,255,1) 21%, rgba(246,209,253,1) 74%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+            .musicMain{
+                background-color: #ba9cd6;
+                margin: 30px;
+                width: 80%;
+                padding-bottom: 20px;
+                    .music-display{
+                    display: inline-block;
+                    width: 100%;
+                        #spotify-embed{
+                            display: inline-block;
+                            margin-left: 2rem;
+                            margin-top: 2rem;
+                        }
+                        #spotify-embed iframe{
+                            padding: 15px;
+                           
+                        }
+                        .profileSpot{
+                            padding-left: 4rem;
+                        }
+                }
+            }
+            
+            footer{
+                background-color: $colorMainIndex;
+                color: white;
+                width: 100%;
+                height: auto;
+                line-height: 30px;
+                position: aboslute;
+                bottom: 0;
+    }
+
+}
+/*NOSE POR QUE NO APLICA*/
+.blackBott{
+        background-color: black;
+    }
+}

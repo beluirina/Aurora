@@ -1,11 +1,14 @@
 $colorMainIndex: #707fb3;
-@import "_index.scss";
+@import "index";
 @import "_documentary.scss";
 @import "_gallery.scss";
 @import "_MVideo.scss";
 @import "_music.scss";
 @import "_tour.scss";
+
+
 /*footer de MVideo - tiene un espacio abajo que no puedo sacar
+en phone music el footer nose por que no aplica
 nav - en todos los htmls cambia de poscicion. intente usar las mismas clases pero no pareceria funcionar. el index.html es el unico que quiero con otra posicion.*/
 
 
@@ -28,11 +31,9 @@ body{
     background-color: #686599c5;
 }
 
-@media only screen and (max-width: 480px) {
-    .indexHeader{
-        background: url(/img/aurora_cure_for_me_3.png);
-        background-repeat: no-repeat;
-        height: 700px;
+/*PHONE*/
+@media only screen and (max-width: 480px){
+    Header{
         h1{
             width: 200px;
         }
@@ -72,149 +73,10 @@ body{
             left: 20%;
         }
     }
-
-    .aboutAurora{
-        padding: 3%;
-        margin: 10%;
-        h2{
-            font-size: 400%;
-        }
-    }
-    .social-media{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        img{
-            padding-top: 40px;
-            padding-bottom: 40px;
-            width: 60%;
-        }
-    }
-    .auroras-pictures{
-        padding-left: 10%;
-        img{
-            padding-top: 30px;
-            width: 85%;
-            height: auto;
-        }
-    }    
-    .wrapper{
-        position: relative;
-        height: 550px;
-        left: 30px;
-        bottom: -80px;
-        background: #fff;
-        padding: 30px;
-        margin-top: 100px;
-        width: 100%;
-        float: right;
-        margin: 30px;
-        .title{
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 25px;
-            color: #707fb3;
-            text-transform: uppercase;
-            text-align: center;
-        }
-        p{
-            font-size: 10px;
-            font-weight: 400;
-            margin-bottom: 25px;
-            color: #6d6a60;
-            text-align: center;
-        }
-        .inputfield{
-        margin-left: 10px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-            label{
-                width: 200px;
-                color: #757575;
-                margin-right: 10px;
-                font-size: 14px;
-            }
-            .input, .textarea{
-                width: 100%;
-                outline: none;
-                border: 1px solid #d5dbd9;
-                font-size: 15px;
-                padding: 8px 10px;
-                border-radius: 3px;
-                transition: all 0.3s ease;
-            }
-            .textarea{
-                width: 100%;
-                height: 125px;
-                resize: none;
-            }       
-            .custom_select{
-                position: relative;
-                width: 100%;
-                height: 37px;
-                select{
-                    -webkit-appearance: none;
-                    -moz-appearance:   none;
-                    appearance:        none;
-                    outline: none;
-                    width: 100%;
-                    height: 100%;
-                    border: 0px;
-                    padding: 8px 10px;
-                    font-size: 15px;
-                    border: 1px solid #d5dbd9;
-                    border-radius: 3px;
-                    color: black;
-                }
-            }
-        }
-        .button{
-            width: 100%;
-            padding: 8px 10px;
-            font-size: 15px; 
-            border: 0px;
-            background:  $colorMainIndex;
-            color: #fff;
-            cursor: pointer;
-            border-radius: 3px;
-            outline: none;
-        }
-        
-    }  
-    footer{
-        background-color: $colorMainIndex;
-        color: white;
-        width: 100%;
-        height: auto;
-        line-height: 30px;
-        
-        position: fixed;
-        bottom: 0%;
-        
-        
-
-            ul{
-                display: flex;
-                text-align: center;
-                flex-direction: column;
-                list-style-type: none;
-                
-            }
-            a:link, a:visited{
-                color: white;
-                text-decoration: none;
-            }
-    }
 }
 
-
-
-
 /*LAPTOP*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px){
     .sideHtmls{
         padding: 10px;
     }
