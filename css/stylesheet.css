@@ -13,15 +13,12 @@ body{
 html{
     overflow-x: hidden;
 }
-*::before, *::after{
-    box-sizing: border-box;
-}
 
 /*HEADER*/
 .backgroundMain{
     padding-top: 50px;
     filter: drop-shadow(1px 3px 30px rgba(0, 0, 0, 0.322));
-    background-image:url(/aurora_cure_for_me_1.jpg);
+    background-image:url(./img/aurora_cure_for_me_1.jpg);
    height: 100vh;
    background-size: cover;
    background-repeat: no-repeat;
@@ -104,7 +101,7 @@ a:link, a:visited {
     margin-bottom: 50px;
 }
 #getToKnow p{
-    font-size: 90%;
+    font-size: 115%;
 }
 #getToKnow article div h2::after {
     content: '';
@@ -153,7 +150,16 @@ a:link, a:visited {
     z-index: 9;
     width: 100%;
 }
-
+footer{
+    background: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    position: absolute;
+    z-index: 9;
+}
 
 /*FORUM*/
 .wrapper{
@@ -320,17 +326,7 @@ a:link, a:visited {
     
 }
 
-footer{
-    background: black;
-    width: 100%;
-    position: fixed;
-    color: white;
-    text-align: center;
-    height:40px;
-    line-height: 40px;
-    position: absolute;
-    z-index: 9;
-}
+
 
 
 
@@ -598,7 +594,7 @@ a.darken:hover img {
 
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) { /*480*/
     .HeaderHomeMQ {
      height: 100vh;
      background-image: url(/img/backMQ.png)!important;
@@ -613,7 +609,7 @@ a.darken:hover img {
 .explore{
     display: none;
 }
-.mainMQ, .logoMQ{
+.mainMQ, .logoPhone{
     position: absolute;
     width: 700px;
     width: 160px;
@@ -787,7 +783,7 @@ nav.exploreMQ{
   }
   
   @media screen and (min-width: 500px){
-    .MQ, .logoMQ, .mainMQ{
+    .MQ, .logoPhone, .mainMQ{
         display: none;
         visibility: hidden;
     }

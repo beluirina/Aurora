@@ -1,0 +1,207 @@
+@media screen and (min-width: 700px) {
+
+
+/*GALLERY*/
+.pics{
+    float: right;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns:10%;
+    grid-template-rows: 160px 190px 250px 100px;
+    grid-template-areas: "pic1"
+                         "pic1"
+                         "pic2"
+                         "pic3"
+                         
+}
+.pic3{
+    grid-area: pic3;
+    display: flex;
+    align-content: bottom;
+}
+.pic1  {
+    grid-area: pic1;
+}
+.pic2{
+    grid-area: pic2;
+}
+
+.galleryfooter{
+    background-image: url(/img/horizontal-bottom.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+    height: 80px;
+
+}
+
+#gallery  {
+    overflow: hidden;
+    width: 100%;
+}
+.gallB{
+    color: #ffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    position: relative;
+}
+nav.explore{
+    height: 80px;
+}
+.galleryE{
+    background-color: black;
+
+}
+
+/*SLIDER*/
+#sliderG {
+	overflow: hidden;
+}
+#sliderG figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 30s slider infinite;
+}
+#sliderG figure img {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+/*GALLERY*/
+.pics{
+    float: right;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns:10%;
+    grid-template-rows: 160px 190px 250px 100px;
+    grid-template-areas: "pic1"
+                         "pic1"
+                         "pic2"
+                         "pic3"
+                         
+}
+.pic3{
+    grid-area: pic3;
+    display: flex;
+    align-content: bottom;
+}
+.pic1  {
+    grid-area: pic1;
+}
+.pic2{
+    grid-area: pic2;
+}
+
+.galleryfooter{
+    background-image: url(/img/horizontal-bottom.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+    height: 80px;
+
+}
+
+#gallery  {
+    overflow: hidden;
+    width: 100%;
+}
+.gallB{
+    color: #ffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    position: relative;
+}
+nav.explore{
+    height: 80px;
+}
+.galleryE{
+    background-color: black;
+
+}
+
+/*SLIDER*/
+#sliderG {
+	overflow: hidden;
+}
+#sliderG figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 30s slider infinite;
+}
+#sliderG figure img {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+
+}

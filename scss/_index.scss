@@ -1,0 +1,257 @@
+@media screen and (min-width: 700px) {
+    /*INDEX HTML*/
+    .indexHeader{
+        background: url("/img/aurora_cure_for_me_1.jpg");        
+        padding-top: 50px;
+        filter: drop-shadow(1px 3px 30px rgba(0, 0, 0, 0.322));
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .dsk-menu h1{
+            width: 200px;
+        }
+        span{
+            color: black;
+        }
+          .btn{
+                display: none;
+            }
+            .logoPhone{
+                visibility: hidden;
+            }
+            .logo-dsk img{
+                position: absolute;
+                width: 180px;
+                top: -20px;
+                left: 0px;
+            }
+            .explore{
+               text-align: center;
+            }
+            h2{
+                position: relative;
+                top: 60%;
+                left: 10%;         
+            }  
+    }
+    .aboutAurora{
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 115%;
+            }
+                margin: 90px;
+                margin-bottom: 10px;
+            article{
+            .about::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom:0;
+                width: 100%;
+                height: 2px;
+                background: currentColor;
+            
+                transform: scaleX(.02);
+                transform-origin: left;
+                transition: transform 350ms ease-in;
+            }
+            .about:hover::after{
+                transform: scaleX(1);
+            }
+            }
+        }
+    .bottom-main-html {
+        
+  display: inline-block;
+  position: relative;
+        .auroras-pictures img{
+        width: 390px;
+        }
+    }
+    .clearfix{
+        clear:both;
+    }
+
+    h1 {
+        width: 180px;
+        display: inline-block;
+        position: relative;
+        top: 9px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .aboutAurora{
+        p{
+    font-size: 115%;
+        }
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 140px; 
+        padding-bottom: 180px;
+        img{
+            height:50px;
+            width:50px;
+        }
+    }
+}
+
+    .bottom-main-html {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    .auroras-pictures{
+
+        display: inline-block;
+        height:500px;
+        margin-left: 30px;
+         
+        img{
+        width: 390px;
+    }
+    width: 55%;
+        
+    }
+}
+
+/*FORUM*/
+    .wrapper{
+    max-width: 500px;
+    background: #fff;
+    margin: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+    margin-top: 150px;
+    width: 40%;
+    float: right;
+    p{
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 25px;
+        color: #6d6a60;
+        text-align: center;
+    }
+    .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #707fb3;
+    text-transform: uppercase;
+    text-align: center;
+    }
+    .form{ 
+        .inputfield{
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+                .input, .textarea{
+                    width: 100%;
+                    outline: none;
+                    border: 1px solid #d5dbd9;
+                    font-size: 15px;
+                    padding: 8px 10px;
+                    border-radius: 3px;
+                    transition: all 0.3s ease;
+                }
+                label{
+                    width: 200px;
+                    color: #757575;
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
+                .textarea{
+                    width: 100%;
+                    height: 125px;
+                    resize: none;
+                }
+                .custom_select{
+                    position: relative;
+                    width: 100%;
+                    height: 37px;
+                    select{
+                        -webkit-appearance: none;
+                        -moz-appearance:   none;
+                        appearance:        none;
+                        outline: none;
+                        width: 100%;
+                        height: 100%;
+                        border: 0px;
+                        padding: 8px 10px;
+                        font-size: 15px;
+                        border: 1px solid #d5dbd9;
+                        border-radius: 3px;
+                        color: grey;
+                    }
+                }
+                .custom_select:before{
+                    content: "";
+                    position: absolute;
+                    top: 12px;
+                    right: 10px;
+                    border: 8px solid;
+                    border-color: #d5dbd9 transparent transparent transparent;
+                    pointer-events: none;
+                }
+                p{
+                    font-size: 14px;
+                    color: #757575;
+                }
+                .btn {
+                    width: 100%;
+                    padding: 8px 10px;
+                    font-size: 15px; 
+                    border: 0px;
+                    background:  #707fb3;
+                    color: #fff;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    outline: none;
+                }
+                .button{
+                    width: 100%;
+                    padding: 8px 10px;
+                    font-size: 15px; 
+                    border: 0px;
+                    background:  #707fb3;
+                    color: #fff;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    outline: none;
+                }
+                .btn:hover .button:hover{
+                    background: #707fb3;
+                }
+            
+            }
+        }
+    }
+
+    .footerIndex{
+        margin-top: 50px;
+        background-color: $colorMainIndex;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+
+            ul{
+                display: flex;
+                flex-direction: row;
+                list-style-type: none;
+                justify-content: center;
+                
+            }
+            a:link, a:visited{
+                color: white;
+                text-decoration: none;
+            }
+
+    }
+}

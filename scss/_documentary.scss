@@ -1,0 +1,75 @@
+@media screen and (min-width: 700px) {
+
+    $paddingleft: 40px;
+/* DOCUMENTARY - HTML*/
+.DOC P, .DOC h2, .DOC h3 {
+    color: grey;
+
+}
+.DOC h2{
+    padding-left: $paddingleft;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-weight: 1000;
+    font-size: x-large;
+
+}
+.DOC h3{
+    padding-left: $paddingleft;
+    font-size: medium;
+}
+.DOC P{
+    padding-top: 10%;
+    padding-left: $paddingleft;
+    width: 400px;
+}
+.DOC{
+    background: #fff;
+    margin: 50px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+    width: 47%;
+    display: flex;
+}
+#exceptionText{
+    font-size: small;
+    color: grey;
+}
+aside{
+    display: flex;
+    justify-content: right;
+    float: right;
+    position: absolute;
+    left: 58%;
+    margin-top: -50px;
+}
+.docuAside{
+    width: 580px;
+}
+.doc-footer{
+    position: fixed;
+    bottom: 0%;
+}
+.docu img{
+    order: -1
+}
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            
+}
+
+a.darken:hover img {
+    opacity: 0.7;
+            
+}
+}
