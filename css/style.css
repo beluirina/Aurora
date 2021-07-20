@@ -340,31 +340,31 @@
 
 @media screen and (min-width: 700px) {
   /* DOCUMENTARY - HTML*/
-  .DOC P, .DOC h2, .DOC h3 {
-    color: grey; }
-  .DOC h2 {
-    padding-left: 40px;
-    padding-top: 8%;
-    padding-bottom: 3%;
-    font-weight: 1000;
-    font-size: x-large; }
-  .DOC h3 {
-    padding-left: 40px;
-    font-size: medium; }
-  .DOC P {
-    padding-top: 10%;
-    padding-left: 40px;
-    width: 400px; }
-  .DOC {
+  .docu .DOC {
     background: #fff;
     margin: 50px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
     padding: 30px;
-    width: 47%;
+    width: 50%;
     display: flex; }
-  #exceptionText {
-    font-size: small;
-    color: grey; }
+    .docu .DOC h2 {
+      padding-left: 40px;
+      padding-top: 8%;
+      padding-bottom: 3%;
+      font-weight: 1000;
+      font-size: x-large; }
+      .docu .DOC h2 #exceptionText {
+        font-size: small;
+        color: grey; }
+    .docu .DOC P, .docu .DOC h2, .docu .DOC h3 {
+      color: grey; }
+    .docu .DOC h3 {
+      padding-left: 40px;
+      font-size: medium; }
+    .docu .DOC P {
+      padding-top: 10%;
+      padding-left: 40px;
+      width: 400px; }
   aside {
     display: flex;
     justify-content: right;
@@ -372,44 +372,20 @@
     position: absolute;
     left: 58%;
     margin-top: -50px; }
-  .docuAside {
-    width: 580px; }
-  .doc-footer {
-    position: fixed;
-    bottom: 0%; }
-  .docu img {
-    order: -1; }
-  a.darken {
-    display: inline-block;
-    background: black;
-    padding: 0; }
-  a.darken img {
+    aside .docuAside {
+      width: 580px; }
+  img {
     display: block;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     transition: all 0.5s linear; }
-  a.darken:hover img {
-    opacity: 0.7; } }
+    img:hover {
+      opacity: 0.7; } }
 
 @media only screen and (max-width: 480px) {
   /* DOCUMENTARY - HTML*/
   aside {
     display: none; }
-  .DOC P, .DOC h2, .DOC h3 {
-    color: grey;
-    position: relative; }
-  .DOC h2 {
-    padding-top: 8%;
-    padding-bottom: 3%;
-    font-weight: 1000;
-    font-size: x-large; }
-  .DOC h3 {
-    font-size: medium; }
-  .DOC P {
-    padding-top: 10%; }
-  #exceptionText {
-    font-size: small;
-    color: grey; }
   .DOC {
     width: 380px;
     background: #fff;
@@ -419,7 +395,22 @@
     height: auto;
     display: flex;
     justify-content: center;
-    flex-direction: column; } }
+    flex-direction: column; }
+    .DOC h2 {
+      padding-top: 8%;
+      padding-bottom: 3%;
+      font-weight: 1000;
+      font-size: x-large; }
+    .DOC h3 {
+      font-size: medium; }
+    .DOC P {
+      padding-top: 10%; }
+    .DOC #exceptionText {
+      font-size: small;
+      color: grey; }
+    .DOC P, .DOC h2, .DOC h3 {
+      color: grey;
+      position: relative; } }
 
 @media screen and (min-width: 700px) {
   /*GALLERY*/
@@ -429,46 +420,27 @@
     display: grid;
     grid-template-columns: 10%;
     grid-template-rows: 160px 190px 250px 100px;
-    grid-template-areas: "pic1" "pic1" "pic2" "pic3"; }
-  .pic3 {
-    grid-area: pic3;
-    display: flex;
-    align-content: bottom; }
-  .pic1 {
-    grid-area: pic1; }
-  .pic2 {
-    grid-area: pic2; }
-  .galleryfooter {
-    background-image: url(/img/horizontal-bottom.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-position-y: -25px;
-    height: 80px; }
-  #gallery {
-    overflow: hidden;
-    width: 100%; }
-  .gallB {
-    color: #ffff;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "helvetica neue",helvetica,arial,sans-serif;
-    position: relative; }
+    grid-template-areas: "pic1" "pic1" "pic2"; }
+    .display-grid .pic1 {
+      grid-area: pic1; }
+    .display-grid .pic2 {
+      grid-area: pic2; }
   nav.explore {
-    height: 80px; }
+    height: 100px; }
   .galleryE {
     background-color: black; }
   /*SLIDER*/
   #sliderG {
     overflow: hidden; }
-  #sliderG figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 30s slider infinite; }
-  #sliderG figure img {
-    float: left;
-    width: 20%; }
+    #sliderG figure {
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      animation: 30s slider infinite; }
+      #sliderG figure img {
+        float: left;
+        width: 20%; }
   @keyframes slider {
     0% {
       left: 0; }
@@ -583,7 +555,6 @@
 
 @media screen and (min-width: 700px) {
   /*TOUR - HTML*/
-  /*TOUR - HTML*/
   .TourBck {
     background-image: url("../img/tour.jpg");
     background-repeat: no-repeat;
@@ -594,32 +565,13 @@
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
     position: relative; }
-  .worldTour {
-    font-size: 300%;
-    width: auto;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-top: 1%;
-    color: #86c0e2; }
-  .tag-canceled {
-    font-size: 120%;
-    padding: 7px; }
-  .primary-detail {
-    color: black;
-    font-weight: bold;
-    font-family: 150%; }
-  .date {
-    font-size: 150%;
-    color: blueviolet;
-    font-weight: 30mm; }
-  .secondary-detail {
-    color: black; }
-  .tourbott {
-    position: fixed;
-    bottom: 0%; }
-  .tag-canceled {
-    background-color: red;
-    color: white; }
+    .TourBck .worldTour {
+      font-size: 300%;
+      width: auto;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 15%;
+      margin-top: 1%;
+      color: #86c0e2; }
   #tourdates {
     display: flex;
     flex-flow: column wrap;
@@ -629,12 +581,28 @@
     padding-top: 30px;
     padding-left: 5%;
     width: 300px; }
+    #tourdates .event-details {
+      background-color: white;
+      width: 200px;
+      padding: 5%; }
+      #tourdates .event-details .primary-detail {
+        color: black;
+        font-weight: bold;
+        font-family: 150%; }
+      #tourdates .event-details .secondary-detail {
+        color: black; }
+      #tourdates .event-details .tag-canceled {
+        font-size: 120%;
+        padding: 7px; }
+      #tourdates .event-details .date {
+        font-size: 150%;
+        color: blueviolet;
+        font-weight: 30mm; }
+      #tourdates .event-details .tag-canceled {
+        background-color: red;
+        color: white; }
   ul {
-    list-style-type: none; }
-  .event-details {
-    background-color: white;
-    width: 200px;
-    padding: 5%; } }
+    list-style-type: none; } }
 
 @media only screen and (max-width: 480px) {
   .TourBck {
@@ -644,32 +612,16 @@
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
     position: relative; }
-  .worldTour {
-    font-size: 300%;
-    width: auto;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-top: 5%;
-    color: #86c0e2; }
-  .tag-canceled {
-    font-size: 120%;
-    padding: 7px; }
-  .primary-detail {
-    color: black;
-    font-weight: bold;
-    font-family: 150%; }
-  .date {
-    font-size: 150%;
-    color: blueviolet;
-    font-weight: 30mm; }
-  .secondary-detail {
-    color: black; }
+    .TourBck .worldTour {
+      font-size: 300%;
+      width: auto;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 15%;
+      margin-top: 5%;
+      color: #86c0e2; }
   .tourbott {
     position: fixed;
     bottom: 0%; }
-  .tag-canceled {
-    background-color: red;
-    color: white; }
   #tourdates {
     display: flex;
     flex-flow: column wrap;
@@ -680,12 +632,28 @@
     padding-top: 30px;
     padding-left: 5%;
     width: 300px; }
+    #tourdates .event-details {
+      background-color: white;
+      width: 200px;
+      padding: 5%; }
+      #tourdates .event-details .tag-canceled {
+        background-color: red;
+        color: white; }
+      #tourdates .event-details .tag-canceled {
+        font-size: 120%;
+        padding: 7px; }
+      #tourdates .event-details .primary-detail {
+        color: black;
+        font-weight: bold;
+        font-family: 150%; }
+      #tourdates .event-details .date {
+        font-size: 150%;
+        color: blueviolet;
+        font-weight: 30mm; }
+      #tourdates .event-details .secondary-detail {
+        color: black; }
   ul {
-    list-style-type: none; }
-  .event-details {
-    background-color: white;
-    width: 200px;
-    padding: 5%; } }
+    list-style-type: none; } }
 
 /*footer de MVideo - tiene un espacio abajo que no puedo sacar
 en phone music el footer nose por que no aplica

@@ -1,7 +1,4 @@
 @media screen and (min-width: 700px) {
-
-/*TOUR - HTML*/
-
 /*TOUR - HTML*/
 .TourBck {
     background-image:url("../img/tour.jpg");
@@ -13,40 +10,14 @@
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
     position: relative;
-    
-}
-.worldTour{
-    font-size: 300%;
-    width: auto;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-top: 1%;
-    color: #86c0e2;
-}
-.tag-canceled{
-    font-size: 120%;
-    padding: 7px;
-}
-.primary-detail{
-    color: black;
-    font-weight: bold;
-    font-family: 150%;
-}
-.date{
-    font-size: 150%;
-    color: blueviolet;
-    font-weight: 30mm;
-}
-.secondary-detail{
-    color: black;
-}
-.tourbott{
-    position: fixed;
-    bottom: 0%;
-}
-.tag-canceled{
-    background-color: red;
-    color: white;
+        .worldTour{
+        font-size: 300%;
+        width: auto;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 15%;
+        margin-top: 1%;
+        color: #86c0e2;
+        }
 }
 #tourdates{
     display: flex;
@@ -57,16 +28,38 @@
     padding-top: 30px;
     padding-left: 5%;
     width: 300px;
+        .event-details{
+        background-color: white;
+        width: 200px;
+        padding: 5%;
+        .primary-detail{
+            color: black;
+            font-weight: bold;
+            font-family: 150%;
+        }
+        .secondary-detail{
+            color: black;
+        }
+        .tag-canceled{
+            font-size: 120%;
+            padding: 7px;
+        }
+        .date{
+            font-size: 150%;
+            color: blueviolet;
+            font-weight: 30mm;
+        }
+        .tag-canceled{
+            background-color: red;
+            color: white;
+        }
+    }
 }
+
+
 ul{
     list-style-type: none;
 }
-.event-details{
-    background-color: white;
-    width: 200px;
-    padding: 5%;
-}
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -77,40 +70,20 @@ ul{
         line-height: 1.5;
         font-family: "helvetica neue",helvetica,arial,sans-serif;
         position: relative;
+        .worldTour{
+            font-size: 300%;
+            width: auto;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 15%;
+            margin-top: 5%;
+            color: #86c0e2;
+        }
     }
-    .worldTour{
-       
-        font-size: 300%;
-        width: auto;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 15%;
-        margin-top: 5%;
-        color: #86c0e2;
-    }
-    .tag-canceled{
-        font-size: 120%;
-        padding: 7px;
-    }
-    .primary-detail{
-        color: black;
-        font-weight: bold;
-        font-family: 150%;
-    }
-    .date{
-        font-size: 150%;
-        color: blueviolet;
-        font-weight: 30mm;
-    }
-    .secondary-detail{
-        color: black;
-    }
+    
+   
     .tourbott{
         position: fixed;
         bottom: 0%;
-    }
-    .tag-canceled{
-        background-color: red;
-        color: white;
     }
     #tourdates{
         display: flex;
@@ -122,13 +95,37 @@ ul{
         padding-top: 30px;
         padding-left: 5%;
         width: 300px;
+        .event-details{
+            background-color: white;
+            width: 200px;
+            padding: 5%;
+            .tag-canceled{
+                background-color: red;
+                color: white;
+            }
+            .tag-canceled{
+                font-size: 120%;
+                padding: 7px;
+            }
+            .primary-detail{
+                color: black;
+                font-weight: bold;
+                font-family: 150%;
+            }
+            .date{
+                font-size: 150%;
+                color: blueviolet;
+                font-weight: 30mm;
+            }
+            .secondary-detail{
+                color: black;
+            }
+        }
+    
+
     }
     ul{
         list-style-type: none;
     }
-    .event-details{
-        background-color: white;
-        width: 200px;
-        padding: 5%;
-    }
+    
 }

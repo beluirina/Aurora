@@ -4,39 +4,42 @@ $paddingleft: 40px;
 @media screen and (min-width: 700px) {
 
 /* DOCUMENTARY - HTML*/
-.DOC P, .DOC h2, .DOC h3 {
-    color: grey;
-
-}
-.DOC h2{
-    padding-left: $paddingleft;
-    padding-top: 8%;
-    padding-bottom: 3%;
-    font-weight: 1000;
-    font-size: x-large;
-
-}
-.DOC h3{
-    padding-left: $paddingleft;
-    font-size: medium;
-}
-.DOC P{
-    padding-top: 10%;
-    padding-left: $paddingleft;
-    width: 400px;
-}
-.DOC{
+.docu{
+    .DOC{
     background: #fff;
     margin: 50px;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
     padding: 30px;
-    width: 47%;
+    width: 50%;
     display: flex;
+        h2{
+            padding-left: $paddingleft;
+            padding-top: 8%;
+            padding-bottom: 3%;
+            font-weight: 1000;
+            font-size: x-large;
+            #exceptionText{
+                font-size: small;
+                color: grey;
+            }
+        }
+        P, h2, h3 {
+            color: grey;
+        
+        }
+        h3{
+            padding-left: $paddingleft;
+            font-size: medium;
+        }
+        P{
+            padding-top: 10%;
+            padding-left: $paddingleft;
+            width: 400px;
+        }
+    }
 }
-#exceptionText{
-    font-size: small;
-    color: grey;
-}
+
+
 aside{
     display: flex;
     justify-content: right;
@@ -44,69 +47,34 @@ aside{
     position: absolute;
     left: 58%;
     margin-top: -50px;
-}
-.docuAside{
-    width: 580px;
-}
-.doc-footer{
-    position: fixed;
-    bottom: 0%;
-}
-.docu img{
-    order: -1
-}
-a.darken {
-    display: inline-block;
-    background: black;
-    padding: 0;
+        .docuAside{
+        width: 580px;
+        }
 }
 
-a.darken img {
+
+
+
+    img {
     display: block;
     
     -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
             transition: all 0.5s linear;
-            
-}
-
-a.darken:hover img {
+      &:hover{
     opacity: 0.7;
             
+}      
 }
 }
+
 
 @media only screen and (max-width: 480px) {
     /* DOCUMENTARY - HTML*/
     aside{
         display: none;
     }
-    
-  
-.DOC P, .DOC h2, .DOC h3 {
-    color: grey;
-    position: relative;
 
-}
-
-.DOC h2{
-    padding-top: 8%;
-    padding-bottom: 3%;
-    font-weight: 1000;
-    font-size: x-large;
-}
-.DOC h3{
-    font-size: medium;
-}
-.DOC P{
-    padding-top: 10%;
-}
-
-
-#exceptionText{
-    font-size: small;
-    color: grey;
-}
 .DOC{
     width: 380px;
     background: #fff;
@@ -117,5 +85,26 @@ a.darken:hover img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+    h2{
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-weight: 1000;
+    font-size: x-large;
+    }
+    h3{
+    font-size: medium;
+    }
+     P{
+    padding-top: 10%;
+    }
+    #exceptionText{
+    font-size: small;
+    color: grey;
+    }
+     P, h2, h3 {
+        color: grey;
+        position: relative;
+    
+    }
+} 
 }
