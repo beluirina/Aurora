@@ -46,14 +46,9 @@
       transition: transform 350ms ease-in; }
     .aboutAurora article .about:hover::after {
       transform: scaleX(1); }
-  .bottom-main-html {
-    display: inline-block;
-    position: relative; }
-    .bottom-main-html .auroras-pictures img {
-      width: 390px; }
   .clearfix {
     clear: both; }
-  h1 {
+  .h1-logo {
     width: 180px;
     display: inline-block;
     position: relative;
@@ -73,245 +68,91 @@
       width: 50px; }
   .bottom-main-html {
     display: inline-block;
-    position: relative;
-    width: 100%;
-    margin-bottom: 50px; }
-    .bottom-main-html .auroras-pictures {
-      display: inline-block;
-      height: 500px;
-      margin-left: 30px;
-      width: 55%; }
-      .bottom-main-html .auroras-pictures img {
-        width: 350px; }
-  /*FORUM*/
-  .wrapper {
-    max-width: 500px;
-    background: #fff;
-    margin: 30px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
-    padding: 30px;
-    margin-top: 150px;
-    width: 40%;
-    float: right; }
-    .wrapper p {
-      font-size: 10px;
-      font-weight: 400;
-      margin-bottom: 25px;
-      color: #6d6a60;
-      text-align: center; }
-    .wrapper .title {
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 25px;
-      color: #707fb3;
-      text-transform: uppercase;
-      text-align: center; }
-    .wrapper .form .inputfield {
-      margin-bottom: 15px;
-      display: flex;
-      align-items: center; }
-      .wrapper .form .inputfield .input, .wrapper .form .inputfield .textarea {
-        width: 100%;
-        outline: none;
-        border: 1px solid #d5dbd9;
-        font-size: 15px;
-        padding: 8px 10px;
-        border-radius: 3px;
-        transition: all 0.3s ease; }
-      .wrapper .form .inputfield label {
-        width: 200px;
-        color: #757575;
-        margin-right: 10px;
-        font-size: 14px; }
-      .wrapper .form .inputfield .textarea {
-        width: 100%;
-        height: 125px;
-        resize: none; }
-      .wrapper .form .inputfield .custom_select {
-        position: relative;
-        width: 100%;
-        height: 37px; }
-        .wrapper .form .inputfield .custom_select select {
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          appearance: none;
-          outline: none;
-          width: 100%;
-          height: 100%;
-          border: 0px;
-          padding: 8px 10px;
-          font-size: 15px;
-          border: 1px solid #d5dbd9;
-          border-radius: 3px;
-          color: grey; }
-      .wrapper .form .inputfield .custom_select:before {
-        content: "";
-        position: absolute;
-        top: 12px;
-        right: 10px;
-        border: 8px solid;
-        border-color: #d5dbd9 transparent transparent transparent;
-        pointer-events: none; }
-      .wrapper .form .inputfield p {
-        font-size: 14px;
-        color: #757575; }
-      .wrapper .form .inputfield .btn {
-        width: 100%;
-        padding: 8px 10px;
-        font-size: 15px;
-        border: 0px;
-        background: #707fb3;
-        color: #fff;
-        cursor: pointer;
-        border-radius: 3px;
-        outline: none; }
-      .wrapper .form .inputfield .button {
-        width: 100%;
-        padding: 8px 10px;
-        font-size: 15px;
-        border: 0px;
-        background: #707fb3;
-        color: #fff;
-        cursor: pointer;
-        border-radius: 3px;
-        outline: none; }
-      .wrapper .form .inputfield .btn:hover .button:hover {
-        background: #707fb3; }
-  .footerIndex {
-    margin-top: 50px;
-    background-color: #707fb3;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    line-height: 50px; }
-    .footerIndex ul {
-      display: flex;
-      flex-direction: row;
-      list-style-type: none;
-      justify-content: center; }
-    .footerIndex a:link, .footerIndex a:visited {
-      color: white;
-      text-decoration: none; } }
-
-@media only screen and (max-width: 480px) {
-  .indexHeader {
-    background: url(/img/aurora_cure_for_me_3.png);
-    background-repeat: no-repeat;
-    height: 700px; }
-    .indexHeader h1 {
-      width: 200px; }
-    .indexHeader .explore .logo-dsk {
-      visibility: hidden; }
-    .indexHeader .explore .offcanvas-body a {
-      color: black;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      height: 50px;
-      font-size: 30px; }
-    .indexHeader .explore .btn {
-      background-color: transparent;
-      background-repeat: no-repeat;
-      border: none; }
-      .indexHeader .explore .btn p {
-        font-size: 50px; }
-    .indexHeader .dsk-menu {
-      visibility: hidden; }
-    .indexHeader h2 {
-      visibility: hidden; }
-    .indexHeader .logoPhone {
-      width: 70%;
-      top: 0;
-      position: absolute;
-      left: 20%; }
-  .aboutAurora {
-    padding: 3%;
-    margin: 10%; }
-    .aboutAurora h2 {
-      font-size: 400%; }
-  .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .social-media img {
-      padding-top: 40px;
-      padding-bottom: 40px;
-      width: 60%; }
+    width: 100%; }
+  .wrapLeft {
+    display: inline-block;
+    margin: 30px; }
   .auroras-pictures {
-    padding-left: 10%; }
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-template-rows: 320px 320px;
+    grid-gap: 0; }
     .auroras-pictures img {
-      padding-top: 30px;
-      width: 85%;
-      height: auto; }
-  .wrapper {
-    position: relative;
-    height: 550px;
-    left: 30px;
-    bottom: -80px;
-    background: #fff;
-    padding: 30px;
-    margin-top: 100px;
-    width: 100%;
-    float: right;
-    margin: 30px;
-    margin-bottom: 4rem; }
-    .wrapper .title {
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 25px;
-      color: #707fb3;
-      text-transform: uppercase;
-      text-align: center; }
-    .wrapper p {
-      font-size: 10px;
-      font-weight: 400;
-      margin-bottom: 25px;
-      color: #6d6a60;
-      text-align: center; }
-    .wrapper .inputfield {
-      margin-left: 10px;
-      margin-bottom: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center; }
-      .wrapper .inputfield label {
-        width: 200px;
-        color: #757575;
-        margin-right: 10px;
-        font-size: 14px; }
-      .wrapper .inputfield .input, .wrapper .inputfield .textarea {
-        width: 100%;
+      width: 320px; } }
+
+/*FORUM*/
+.wrapper {
+  max-width: 500px;
+  background: #fff;
+  margin-left: 100px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+  width: 50%;
+  display: inline-block;
+  transform: translateY(40%); }
+  .wrapper p {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #6d6a60;
+    text-align: center; }
+  .wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #707fb3;
+    text-transform: uppercase;
+    text-align: center; }
+  .wrapper .form .inputfield {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; }
+    .wrapper .form .inputfield .input, .wrapper .form .inputfield .textarea {
+      width: 100%;
+      outline: none;
+      border: 1px solid #d5dbd9;
+      font-size: 15px;
+      padding: 8px 10px;
+      border-radius: 3px;
+      transition: all 0.3s ease; }
+    .wrapper .form .inputfield label {
+      width: 200px;
+      color: #757575;
+      margin-right: 10px;
+      font-size: 14px; }
+    .wrapper .form .inputfield .textarea {
+      width: 100%;
+      height: 125px;
+      resize: none; }
+    .wrapper .form .inputfield .custom_select {
+      position: relative;
+      width: 100%;
+      height: 37px; }
+      .wrapper .form .inputfield .custom_select select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
         outline: none;
-        border: 1px solid #d5dbd9;
-        font-size: 15px;
+        width: 100%;
+        height: 100%;
+        border: 0px;
         padding: 8px 10px;
+        font-size: 15px;
+        border: 1px solid #d5dbd9;
         border-radius: 3px;
-        transition: all 0.3s ease; }
-      .wrapper .inputfield .textarea {
-        width: 100%;
-        height: 125px;
-        resize: none; }
-      .wrapper .inputfield .custom_select {
-        position: relative;
-        width: 100%;
-        height: 37px; }
-        .wrapper .inputfield .custom_select select {
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          appearance: none;
-          outline: none;
-          width: 100%;
-          height: 100%;
-          border: 0px;
-          padding: 8px 10px;
-          font-size: 15px;
-          border: 1px solid #d5dbd9;
-          border-radius: 3px;
-          color: black; }
-    .wrapper .button {
+        color: grey; }
+    .wrapper .form .inputfield .custom_select:before {
+      content: "";
+      position: absolute;
+      top: 12px;
+      right: 10px;
+      border: 8px solid;
+      border-color: #d5dbd9 transparent transparent transparent;
+      pointer-events: none; }
+    .wrapper .form .inputfield p {
+      font-size: 14px;
+      color: #757575; }
+    .wrapper .form .inputfield .btn {
       width: 100%;
       padding: 8px 10px;
       font-size: 15px;
@@ -321,22 +162,36 @@
       cursor: pointer;
       border-radius: 3px;
       outline: none; }
-  footer {
-    background-color: #707fb3;
+    .wrapper .form .inputfield .button {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 15px;
+      border: 0px;
+      background: #707fb3;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+      outline: none; }
+    .wrapper .form .inputfield .btn:hover .button:hover {
+      background: #707fb3; }
+
+.footerIndex {
+  margin-top: 50px;
+  background-color: #707fb3;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px; }
+  .footerIndex ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center; }
+  .footerIndex a:link, .footerIndex a:visited {
     color: white;
-    width: 100%;
-    height: auto;
-    line-height: 30px;
-    position: relative;
-    bottom: 0; }
-    footer ul {
-      display: flex;
-      text-align: center;
-      flex-direction: column;
-      list-style-type: none; }
-    footer a:link, footer a:visited {
-      color: white;
-      text-decoration: none; } }
+    text-decoration: none; }
 
 @media screen and (min-width: 700px) {
   /* DOCUMENTARY - HTML*/
@@ -374,12 +229,12 @@
     margin-top: -50px; }
     aside .docuAside {
       width: 580px; }
-  img {
+  .docu img {
     display: block;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     transition: all 0.5s linear; }
-    img:hover {
+    .docu img:hover {
       opacity: 0.7; } }
 
 @media only screen and (max-width: 480px) {
@@ -680,7 +535,7 @@ body {
 
 /*PHONE*/
 @media only screen and (max-width: 480px) {
-  Header h1 {
+  Header .h1-logo {
     width: 200px; }
   Header .explore .logo-dsk {
     visibility: hidden; }
@@ -717,7 +572,7 @@ body {
     color: white;
     background-color: transparent;
     text-decoration: none; }
-  h1 {
+  .h1-logo {
     width: 180px; }
   span {
     color: black; }

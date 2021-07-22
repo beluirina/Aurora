@@ -38,7 +38,7 @@ body{
 /*PHONE*/
 @media only screen and (max-width: 480px){
     Header{
-        h1{
+        .h1-logo{
             width: 200px;
         }
         .explore{
@@ -93,7 +93,7 @@ body{
         background-color: transparent;
         text-decoration: none;
     }
-    h1{
+    .h1-logo{
         width: 180px;
     }
     span{
