@@ -16,5 +16,13 @@
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beluirina/Aurora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beluirina/Aurora/issues"
+  },
+  "homepage": "https://github.com/beluirina/Aurora#readme",
   "description": ""
 }

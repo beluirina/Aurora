@@ -82,7 +82,7 @@
       margin-left: 30px;
       width: 55%; }
       .bottom-main-html .auroras-pictures img {
-        width: 390px; }
+        width: 350px; }
   /*FORUM*/
   .wrapper {
     max-width: 500px;
@@ -655,7 +655,11 @@
   ul {
     list-style-type: none; } }
 
-/*footer de MVideo - tiene un espacio abajo que no puedo sacar
+/*
+ -- do tablet screen and horizontal phone - 480 horizontal -- vertical 320
+ 768 - 1023 tablet
+ 1200 pc
+footer de MVideo - tiene un espacio abajo que no puedo sacar
 en phone music el footer nose por que no aplica
 nav - en todos los htmls cambia de poscicion. intente usar las mismas clases pero no pareceria funcionar. el index.html es el unico que quiero con otra posicion.*/
 * {
