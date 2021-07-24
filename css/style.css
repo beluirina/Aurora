@@ -193,6 +193,152 @@
     color: white;
     text-decoration: none; }
 
+@media only screen and (max-width: 480px) {
+  .indexHeader {
+    background: url(/img/aurora_cure_for_me_3.png);
+    background-repeat: no-repeat;
+    height: 700px; }
+    .indexHeader h1 {
+      width: 200px; }
+    .indexHeader .explore .logo-dsk {
+      visibility: hidden; }
+    .indexHeader .explore .offcanvas-body a {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 50px;
+      font-size: 30px; }
+    .indexHeader .explore .btn {
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none; }
+      .indexHeader .explore .btn p {
+        font-size: 50px; }
+    .indexHeader .dsk-menu {
+      visibility: hidden; }
+    .indexHeader h2 {
+      visibility: hidden; }
+    .indexHeader .logoPhone {
+      width: 70%;
+      top: 0;
+      position: absolute;
+      left: 20%; }
+  .aboutAurora {
+    padding: 3%;
+    margin: 10%; }
+    .aboutAurora h2 {
+      font-size: 400%; }
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .social-media img {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      width: 60%; }
+  .auroras-pictures {
+    padding-left: 10%; }
+    .auroras-pictures img {
+      padding-top: 30px;
+      width: 85%;
+      height: auto; }
+  .wrapper {
+    position: relative;
+    height: 550px;
+    left: 30px;
+    bottom: -80px;
+    background: #fff;
+    padding: 30px;
+    margin-top: 100px;
+    width: 100%;
+    float: right;
+    margin: 30px;
+    margin-bottom: 4rem; }
+    .wrapper .title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 25px;
+      color: #707fb3;
+      text-transform: uppercase;
+      text-align: center; }
+    .wrapper p {
+      font-size: 10px;
+      font-weight: 400;
+      margin-bottom: 25px;
+      color: #6d6a60;
+      text-align: center; }
+    .wrapper .inputfield {
+      margin-left: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; }
+      .wrapper .inputfield label {
+        width: 200px;
+        color: #757575;
+        margin-right: 10px;
+        font-size: 14px; }
+      .wrapper .inputfield .input, .wrapper .inputfield .textarea {
+        width: 100%;
+        outline: none;
+        border: 1px solid #d5dbd9;
+        font-size: 15px;
+        padding: 8px 10px;
+        border-radius: 3px;
+        transition: all 0.3s ease; }
+      .wrapper .inputfield .textarea {
+        width: 100%;
+        height: 125px;
+        resize: none; }
+      .wrapper .inputfield .custom_select {
+        position: relative;
+        width: 100%;
+        height: 37px; }
+        .wrapper .inputfield .custom_select select {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          outline: none;
+          width: 100%;
+          height: 100%;
+          border: 0px;
+          padding: 8px 10px;
+          font-size: 15px;
+          border: 1px solid #d5dbd9;
+          border-radius: 3px;
+          color: black; }
+    .wrapper .button {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 15px;
+      border: 0px;
+      background: #707fb3;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+      outline: none; }
+  footer {
+    background-color: #707fb3;
+    color: white;
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    position: fixed;
+    bottom: 0; }
+    footer ul {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      list-style-type: none; }
+    footer a:link, footer a:visited {
+      color: white;
+      text-decoration: none; }
+  .phoneFixed {
+    position: fixed;
+    height: auto; } }
+
 @media screen and (min-width: 700px) {
   /* DOCUMENTARY - HTML*/
   .docu .DOC {
