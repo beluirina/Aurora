@@ -17,7 +17,7 @@
       visibility: hidden; }
     .indexHeader .logo-dsk img {
       position: absolute;
-      width: 180px;
+      width: 300px;
       top: -20px;
       left: 0px; }
     .indexHeader .explore {
@@ -49,7 +49,7 @@
   .clearfix {
     clear: both; }
   .h1-logo {
-    width: 180px;
+    width: 300px;
     display: inline-block;
     position: relative;
     top: 9px;
@@ -176,7 +176,7 @@
       background: #707fb3; }
 
 .footerIndex {
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: #707fb3;
   color: white;
   position: relative;
@@ -314,7 +314,16 @@
     95% {
       left: -300%; }
     100% {
-      left: -400%; } } }
+      left: -400%; } }
+  .gallery-footer {
+    background-image: url("/img/gallery/horizontal-bottom.jpg");
+    background-position: left;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+    height: 80px;
+    position: absolute;
+    bottom: -11rem; } }
 
 @media only screen and (max-width: 480px) {
   /*GALLERY*/
@@ -335,7 +344,9 @@
   .YTsubscribe {
     position: absolute;
     top: 130px;
-    left: 30px; } }
+    left: 30px; }
+  .videoBott {
+    height: 200px; } }
 
 @media only screen and (max-width: 480px) {
   /*MUSIC VIDEO*/
@@ -402,7 +413,7 @@
       width: 100%;
       height: auto;
       line-height: 30px;
-      position: aboslute;
+      position: absolute;
       bottom: 0; }
   /*NOSE POR QUE NO APLICA*/
   .blackBott {
@@ -533,35 +544,22 @@ html {
 body {
   background-color: #686599c5; }
 
-/*PHONE*/
-@media only screen and (max-width: 480px) {
-  Header .h1-logo {
-    width: 200px; }
-  Header .explore .logo-dsk {
-    visibility: hidden; }
-  Header .explore .offcanvas-body a {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50px;
-    font-size: 30px; }
-  Header .explore .btn {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none; }
-    Header .explore .btn p {
-      font-size: 50px; }
-  Header .dsk-menu {
-    visibility: hidden; }
-  Header h2 {
-    visibility: hidden; }
-  Header .logoPhone {
-    width: 70%;
-    top: 0;
-    position: absolute;
-    left: 20%; } }
+.blackBott {
+  background: black;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  z-index: 9; }
 
+.videoBott {
+  position: absolute;
+  bottom: -10rem; }
+
+/*PHONE*/
 /*LAPTOP*/
 @media screen and (min-width: 700px) {
   .sideHtmls {
@@ -607,20 +605,36 @@ body {
     footer a:link, footer a:visited {
       color: white;
       text-decoration: none; }
-  .blackBott {
-    background: black;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-    z-index: 9; }
   .fixedBott {
     position: fixed; }
-  .videoBott {
-    top: -4px; }
   nav.black {
     background: black;
     height: 80px; } }
+
+@media only screen and (max-width: 480px) {
+  Header .h1-logo {
+    width: 200px; }
+  Header .explore .logo-dsk {
+    visibility: hidden; }
+  Header .explore .offcanvas-body a {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    font-size: 30px; }
+  Header .explore .btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none; }
+    Header .explore .btn p {
+      font-size: 50px; }
+  Header .dsk-menu {
+    visibility: hidden; }
+  Header h2 {
+    visibility: hidden; }
+  Header .logoPhone {
+    width: 70%;
+    top: 0;
+    position: absolute;
+    left: 20%; } }

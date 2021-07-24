@@ -34,51 +34,23 @@ html{
 body{
     background-color: #686599c5;
 }
-
-/*PHONE*/
-@media only screen and (max-width: 480px){
-    Header{
-        .h1-logo{
-            width: 200px;
-        }
-        .explore{
-            .logo-dsk{
-            visibility: hidden;
-            }
-            
-            .offcanvas-body a{
-                color: black;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                height: 50px;
-                font-size: 30px;
-            }
-            .btn{
-                background-color: transparent;
-                background-repeat: no-repeat;
-                border: none;
-                p{
-                font-size: 50px; 
-                }
-                
-            }
-        }
-        .dsk-menu{
-            visibility: hidden;
-        }
-        h2{
-            visibility: hidden;
-        }
-        .logoPhone{
-            width: 70%;
-            top: 0;
-            position: absolute;
-            left: 20%;
-        }
-    }
+.blackBott{
+    background: black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    z-index: 9;
 }
-
+.videoBott{
+    position: absolute;
+    bottom: -10rem;
+    
+}
+/*PHONE*/
 /*LAPTOP*/
 @media screen and (min-width: 700px){
     .sideHtmls{
@@ -143,28 +115,58 @@ body{
     
         }
 
-        .blackBott{
-            background: black;
-            width: 100%;
-            position: relative;
-            bottom: 0;
-            color: white;
-            text-align: center;
-            height:40px;
-            line-height: 40px;
-            z-index: 9;
-            
-        }
+        
         .fixedBott{
             position: fixed;
         }
-        .videoBott{
-            top: -4px;
-        }
+        
         nav.black{
             background: black;
             height: 80px;
     
         }
 
+}
+
+@media only screen and (max-width: 480px){
+    Header{
+        .h1-logo{
+            width: 200px;
+        }
+        .explore{
+            .logo-dsk{
+            visibility: hidden;
+            }
+            
+            .offcanvas-body a{
+                color: black;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 50px;
+                font-size: 30px;
+            }
+            .btn{
+                background-color: transparent;
+                background-repeat: no-repeat;
+                border: none;
+                p{
+                font-size: 50px; 
+                }
+                
+            }
+        }
+        .dsk-menu{
+            visibility: hidden;
+        }
+        h2{
+            visibility: hidden;
+        }
+        .logoPhone{
+            width: 70%;
+            top: 0;
+            position: absolute;
+            left: 20%;
+        }
+    }
 }

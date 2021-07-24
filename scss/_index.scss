@@ -22,7 +22,7 @@
             }
             .logo-dsk img{
                 position: absolute;
-                width: 180px;
+                width: 300px;
                 top: -20px;
                 left: 0px;
             }
@@ -68,7 +68,7 @@
     }
 
     .h1-logo {
-        width: 180px;
+        width: 300px;
         display: inline-block;
         position: relative;
         top: 9px;
@@ -225,7 +225,7 @@
     }
 
     .footerIndex{
-        margin-top: 50px;
+        margin-top: 20px;
         background-color: $colorMainIndex;
         color: white;
         position: relative;
@@ -247,3 +247,4 @@
             }
 
     }
+    
