@@ -3,7 +3,7 @@
 /*SPOTIFY*/
 .musicBody{
     background: rgb(47,28,83);
-    background: linear-gradient(22deg, rgba(47,28,83,1) 0%, rgba(164,109,255,1) 21%, rgba(246,209,253,1) 74%);
+    background: linear-gradient(22deg, rgba(246,209,253,1) 64% ,rgba(47,28,83,1) 0%);
     background-repeat: no-repeat;
     background-attachment: fixed;
         .musicMain{
@@ -40,7 +40,8 @@
            
     .musicBody{
         background: rgb(47,28,83);
-        background: linear-gradient(22deg, rgba(47,28,83,1) 0%, rgba(164,109,255,1) 21%, rgba(246,209,253,1) 74%);
+
+        background: linear-gradient(22deg, rgba(246,209,253,1) 64% ,rgba(47,28,83,1) 0%);
         background-repeat: no-repeat;
         background-attachment: fixed;
             .musicMain{
@@ -61,24 +62,20 @@
                            
                         }
                         .profileSpot{
-                            padding-left: 4rem;
+                            padding-left: 2rem;
                         }
                 }
             }
             
             footer{
-                background-color: $colorMainIndex;
-                color: white;
+                background-color: rgb(47,28,83);
                 width: 100%;
                 height: auto;
                 line-height: 30px;
-                position: absolute;
+                position: relative;
                 bottom: 0;
     }
 
 }
-/*NOSE POR QUE NO APLICA*/
-.blackBott{
-        background-color: black;
-    }
+
 }

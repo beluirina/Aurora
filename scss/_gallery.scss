@@ -97,11 +97,25 @@ nav.explore{
 		width: 480px;	
 	}
 }
+.gallB{
+	height: 600px;
+}
 nav.explore{
     height: 100px;
 }
 .galleryE{
     background-color: black;
+
+}
+.gallery-footer{
+    background-image: url("/img/gallery/horizontal-bottom.jpg");
+	background-color: black;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+	background-position-x: -400px;
+    height: 200px;
+	position: relative;
+	bottom: 1rem;
 
 }
 

@@ -1,4 +1,4 @@
-$colorMainIndex: #707fb3;
+$colorMainIndex:#2a623d;
 @import "index";
 @import "_documentary.scss";
 @import "_gallery.scss";
@@ -7,7 +7,7 @@ $colorMainIndex: #707fb3;
 @import "_tour.scss";
 
 
-/*
+/*#707fb3
  -- do tablet screen and horizontal phone - 480 horizontal -- vertical 320
  768 - 1023 tablet
  1200 pc
@@ -34,22 +34,12 @@ html{
 body{
     background-color: #686599c5;
 }
-.blackBott{
-    background: black;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    height:40px;
-    line-height: 40px;
-    z-index: 9;
+.index-html-body{
+    background-image: url(/img/Screenshot-1245.png);
 }
-.videoBott{
-    position: absolute;
-    bottom: -10rem;
-    
-}
+
+
+
 /*PHONE*/
 /*LAPTOP*/
 @media screen and (min-width: 700px){
@@ -93,7 +83,7 @@ body{
         } 
 
         footer{
-            background-color: $colorMainIndex;
+            background-color: black;
             color: white;
             position: relative;
             bottom: 0;
@@ -115,18 +105,52 @@ body{
     
         }
 
-        
+        .blackBott{
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            color: white;
+            text-align: center;
+            height:40px;
+            line-height: 40px;
+            z-index: 9;
+        }
         .fixedBott{
             position: fixed;
         }
         
         nav.black{
-            background: black;
             height: 80px;
     
         }
-
-}
+        .videoBott{
+            position: absolute;
+            bottom: -10rem;
+            height: fit-content;  
+        }
+        .error404{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 10%;
+        }
+        }
+        
+ .button-404{
+    text-align:center;
+    color: #fff;text-align: center;
+    }
+    button{
+    position: relative;
+    border:2px solid white;
+    color:#FFF;
+    background:none;
+    margin:25px;
+    padding: 10px 35px;
+    font-size:15px;
+    cursor: pointer;
+    border-radius:50px;
+    }
 
 @media only screen and (max-width: 480px){
     Header{
@@ -168,5 +192,15 @@ body{
             position: absolute;
             left: 20%;
         }
+    }
+    .error404{
+        position: absolute;
+        top: 10%;
+        div{
+        position: absolute;
+        top: 20%;
+        margin: 20px;
+        }
+    
     }
 }

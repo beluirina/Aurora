@@ -26,7 +26,7 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css"/>
    
 </head>
-<body>
+<body class="index-html-body">
     <header class="indexHeader"> 
       <div class="explore">
         <div class="phone-button-wrapper">
@@ -49,13 +49,13 @@
           </div>
           </div>
             <div class="dsk-menu">
-              <a href="./pages/Music.html"><span>Music |</span></a>
-              <a href="./pages/MVideo.html"><span>MVideo |</span></a>
-              <a href="./pages/Tour.html"><span>Tour |</span></a>
+              <a href="./pages/Music.html">Music |</a>
+              <a href="./pages/MVideo.html">MVideo |</a>
+              <a href="./pages/Tour.html">Tour |</a>
               <h1 class="h1-logo"><img class="logo-dsk" src="https://www.aurora-music.com/wp-content/themes/auroramusic/assets2021/gfx/aurora-logo2.png" alt="AURORA logo" width="100"></a></h1>
-              <span><a href="https://store.universalmusic.com/aurora/?utm_campaign=AURORA20191213&utm_content=&utm_medium=referral&utm_source=Website&utm_umguk=www.aurora-music.com%2F&utm_campaign=AURORA20191213&utm_content=&utm_medium=referral&utm_source=Website"> <span>Store |</span> </a>
-              <a href="./pages/Gallery.html"><span>Gallery |</span></a>
-              <a href="./pages/Documentary.html"><Span>Documentary</Span></a></span>
+              <span><a href="https://store.universalmusic.com/aurora/?utm_campaign=AURORA20191213&utm_content=&utm_medium=referral&utm_source=Website&utm_umguk=www.aurora-music.com%2F&utm_campaign=AURORA20191213&utm_content=&utm_medium=referral&utm_source=Website"> Store | </a>
+              <a href="./pages/Gallery.html">Gallery |</a>
+              <a href="./pages/Documentary.html">Documentary</a>
             </div>
         </div>
       <h2 class="dont-need">I dont need a cure for <span>me.</span></h2>
@@ -63,74 +63,15 @@
       </header>
     <main>
     <!--Hola Belu!
-
-ESTRUCTURA WEB
-
-El sitio es consistente a lo largo de sus secciones, las tabulaciones son generalmente correctas aunque hay secciones para optimizar, el código es ordenado
-
-El uso de etiquetas semánticas es el esperado y dan estructura general a los html
-
-Los alt están completos quizás se puede optimizar indicando algún detalle mas que el nombre de la cantante.
-
-El uso de las etiquetas en general es optimo
-
 Los nombres de las clases son claros, pero es posible optimizarlo ya que no se recomienda que se usen espacios se puede usar por ej camelCase o BEM
-
-No hay problemas generales de linkeo y los enlaces funcionan correctamente, proporcionando buena navegabilidad
-
-El nombre del archivo scss es apropiado
-
-Las imágenes tienen rutas correctas y cada imagen es correcta y apropiada para el tema del sitio.
-
- 
-
-La información esta correctamente estructurada en función a las etiquetas aplicadas. El contenido textual fluye adecuadamente con el visual
-
- 
-
-CSS
-
-Las tabulaciones y anidaciones son correctas y prolijas
-
-En scss se usa & para realizar selectores optimos y con pocas repeticiones
-
-Los estilos son plausibles de transformación para diferentes dispositivos
 
 Se podría optimizar el código a través del uso de variables, mixim o extend a fin de no repetir y optimizar el código
 
-Genera una estructura propia para el diseño web que es navegable e intuitiva
-
-El contraste de colores es apropiado y la paleta de colores se respeta a lo largo de los html.
-
-Las transiciones y animaciones no sobrecargan el sitio y son atractivas.
-
-El framework es utilizado de manera optima, agregando solo los modulos que necesitas y utilliza clases propias para personalizar
-
-Se utiliza tanto medidas absolutas como relativas
-
-El sitio tiene buena navegación en diferentes tamaños
- 
-
-TENE EN CUENTA
-
-
 Fijate que tenes algunas líneas mal tabuladas (links en head por , h1 y h2 a la misma altura del header xej)
-
- 
 
 Tenes 3 css fíjate que cuando mandes tu trabajo, mas alla que linkees solo uno no tenes que tener mas de un archivo en esa carpeta
 
- 
-
 Me sigue pasando que cuando veo el sitio no carga el css a menos que saque la barra al principio de la ruta, pero cuando me pasaste el link del servidor se veía bien, me sigue pareciendo raro pero si la vista en servidor funciona estimo que el problema viene de mi equipo.
-
- 
-
-Lo que si la imagen del fondo en el index le faltaba en la ruta ../para poder salir del css y entrar en la carpeta img. Por otra parte esta foto tiene algún filtro? Porque no tiene la nitidez de otras fotos y no me parece que sea solo un pixelado, en todo caso fíjate que no quede pixelada.
-
- 
-
-Belu el footer lo veo sobre el main, podes hacerlo fixed, pero nose si queres que se vea todo el tiempo (aun si lo tenes fijo en documentari), fíjate como esta armado porque pisa el main cuando debería ser una caja que este debajo.
 
 -->
         <section class="aboutAurora">
@@ -151,6 +92,12 @@ Belu el footer lo veo sobre el main, podes hacerlo fixed, pero nose si queres qu
                 <a href="https://www.facebook.com/iamAURORA" target="_blank">
                     <img src="img/icons/facebook-icon2.png" alt="facebook icon"></a>   
             </nav>
+            <a href="/pages/pagina-404.html">
+              <button class="white">Fanart Gallery</button></a>
+              <a href="/pages/pagina-404.html">
+                <button class="white">+</button></a>
+                
+          
         </section>
         <section class="bottom-main-html">
             <div class="wrapLeft">
@@ -202,7 +149,7 @@ Belu el footer lo veo sobre el main, podes hacerlo fixed, pero nose si queres qu
 
     </main>
 <div class="clearfix"></div>
-    <footer class="footerIndex phoneFixed">
+    <footer class="main-index-footer">
         <nav>
           <ul>
               <li><a href="https://decca.com/">©DECCA RECORDS 2021 </a>

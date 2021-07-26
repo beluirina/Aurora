@@ -13,6 +13,10 @@
     .videoBott{
         height: 200px;
      }
+     #iframeId{
+         height: 810px;
+     }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -24,7 +28,14 @@
     }
     .YTsubscribe{
         position: absolute;
-        top: 130px;
+        top: 120px;
         left: 30px;
+    }
+    #iframeId{
+        height: 530px;
+    }
+    .videoBott{
+        position: absolute;
+        bottom: 0;
     }
 }

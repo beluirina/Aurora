@@ -2,7 +2,7 @@
 @media screen and (min-width: 700px) {
     /*INDEX HTML*/
     .indexHeader{
-        background: url("/img/aurora_cure_for_me_1.jpg");        
+        background: url("/img/aurora_cure_for_me_1.png");        
         padding-top: 50px;
         filter: drop-shadow(1px 3px 30px rgba(0, 0, 0, 0.322));
         height: 100vh;
@@ -12,7 +12,7 @@
             width: 200px;
         }
         span{
-            color: black;
+            color: 	#59ac74;
         }
           .btn{
                 display: none;
@@ -110,7 +110,7 @@
         }
         
     }
-}
+
 /*FORUM*/
     .wrapper{
     max-width: 500px;
@@ -133,7 +133,7 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
-    color: #707fb3;
+    color: $colorMainIndex;
     text-transform: uppercase;
     text-align: center;
     }
@@ -199,7 +199,7 @@
                     padding: 8px 10px;
                     font-size: 15px; 
                     border: 0px;
-                    background:  #707fb3;
+                    background:  $colorMainIndex;
                     color: #fff;
                     cursor: pointer;
                     border-radius: 3px;
@@ -210,21 +210,21 @@
                     padding: 8px 10px;
                     font-size: 15px; 
                     border: 0px;
-                    background:  #707fb3;
+                    background:  $colorMainIndex;
                     color: #fff;
                     cursor: pointer;
                     border-radius: 3px;
                     outline: none;
                 }
                 .btn:hover .button:hover{
-                    background: #707fb3;
+                    background: $colorMainIndex;
                 }
             
             }
         }
     }
 
-    .footerIndex{
+    .main-index-footer{
         margin-top: 20px;
         background-color: $colorMainIndex;
         color: white;
@@ -246,8 +246,9 @@
                 text-decoration: none;
             }
 
-    }
-    
+
+}
+}
 
 @media only screen and (max-width: 480px) {
     .indexHeader{
@@ -334,7 +335,7 @@
             font-size: 24px;
             font-weight: 700;
             margin-bottom: 25px;
-            color: #707fb3;
+            color:  $colorMainIndex;
             text-transform: uppercase;
             text-align: center;
         }
@@ -405,31 +406,26 @@
         }
         margin-bottom: 4rem;
         
-    }  
-    
-footer{
-    background-color: $colorMainIndex;
-    color: white;
-    width: 100%;
-    height: auto;
-    line-height: 30px;
-    position: fixed;
-    bottom: 0;
-        ul{
-            display: flex;
-            text-align: center;
-            flex-direction: column;
-            list-style-type: none;
-            
-        }
-        a:link, a:visited{
-            color: white;
-            text-decoration: none;
-        }
-        
+    }    
+ 
+    footer{
+        color: white;
+        width: 100%;
+        height: auto;
+        line-height: 30px;
+        position: relative;
+        bottom: 0;
+            ul{
+                 display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    list-style-type: none;            
+                
+                
+            }
+            a:link, a:visited{
+                color: white;
+                text-decoration: none;
+            }
 }
-.phoneFixed{
-            position: fixed;
-            height: auto;
-        }
 }

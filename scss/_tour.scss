@@ -60,23 +60,24 @@
 ul{
     list-style-type: none;
 }
+
 }
 
 @media only screen and (max-width: 480px) {
     .TourBck {
-        background-color: $colorMainIndex;
+        background-color: rgb(141, 195, 212);
         color: #ffff;
         font-size: 16px;
         line-height: 1.5;
         font-family: "helvetica neue",helvetica,arial,sans-serif;
         position: relative;
         .worldTour{
-            font-size: 300%;
-            width: auto;
-            font-family: 'Montserrat', sans-serif;
-            margin-left: 15%;
+            font-size: 3rem;
+            width: 100%;
+            font-weight: 900;
+            margin-left: 8%;
             margin-top: 5%;
-            color: #86c0e2;
+            color: rgb(255, 255, 255);
         }
     }
     
