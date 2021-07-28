@@ -1,4 +1,6 @@
 $colorMainIndex:#2a623d;
+$b: black;
+$w: white;
 @import "index";
 @import "_documentary.scss";
 @import "_gallery.scss";
@@ -7,24 +9,15 @@ $colorMainIndex:#2a623d;
 @import "_tour.scss";
 
 
-/*#707fb3
- -- do tablet screen and horizontal phone - 480 horizontal -- vertical 320
- 768 - 1023 tablet
- 1200 pc
-footer de MVideo - tiene un espacio abajo que no puedo sacar
-en phone music el footer nose por que no aplica
-nav - en todos los htmls cambia de poscicion. intente usar las mismas clases pero no pareceria funcionar. el index.html es el unico que quiero con otra posicion.*/
-
-
 
 *{
-    color: white;
+    color: $w;
     margin: 0;
     padding: 0;
     /*box-sizing: border-box;*/
     font-family: 'Montserrat', sans-serif;
         a:visited, a:link{
-            color: white;
+            color: $w;
             text-decoration: none;
         }
 }
@@ -35,7 +28,7 @@ body{
     background-color: #686599c5;
 }
 .index-html-body{
-    background-image: url(/img/Screenshot-1245.png);
+    background-image: url("../img/Screenshot-1245.png");
 }
 
 
@@ -51,7 +44,7 @@ body{
     }
                 
     a:link, a:visited {
-        color: white;
+        color: $w;
         background-color: transparent;
         text-decoration: none;
     }
@@ -59,7 +52,7 @@ body{
         width: 180px;
     }
     span{
-        color: black;
+        color: $b;
     }
       .btn{
             display: none;
@@ -83,8 +76,8 @@ body{
         } 
 
         footer{
-            background-color: black;
-            color: white;
+            background-color: $b;
+            color: $w;
             position: relative;
             bottom: 0;
             width: 100%;
@@ -99,7 +92,7 @@ body{
                     
                 }
                 a:link, a:visited{
-                    color: white;
+                    color: $w;
                     text-decoration: none;
                 }
     
@@ -109,7 +102,7 @@ body{
             width: 100%;
             position: relative;
             bottom: 0;
-            color: white;
+            color: $w;
             text-align: center;
             height:40px;
             line-height: 40px;
@@ -138,12 +131,12 @@ body{
         
  .button-404{
     text-align:center;
-    color: #fff;text-align: center;
+    color: $w;text-align: center;
     }
     button{
     position: relative;
-    border:2px solid white;
-    color:#FFF;
+    border:2px solid $w;
+    color: $w;
     background:none;
     margin:25px;
     padding: 10px 35px;
@@ -163,7 +156,7 @@ body{
             }
             
             .offcanvas-body a{
-                color: black;
+                color: $b;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;

@@ -1,7 +1,7 @@
 @media screen and (min-width: 700px) {
   /*INDEX HTML*/
   .indexHeader {
-    background: url("/img/aurora_cure_for_me_1.png");
+    background: url("../img/aurora_cure_for_me_1.png");
     padding-top: 50px;
     filter: drop-shadow(1px 3px 30px rgba(0, 0, 0, 0.322));
     height: 100vh;
@@ -82,7 +82,7 @@
   /*FORUM*/
   .wrapper {
     max-width: 500px;
-    background: #fff;
+    background: white;
     margin-left: 100px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
     padding: 30px;
@@ -157,7 +157,7 @@
         font-size: 15px;
         border: 0px;
         background: #2a623d;
-        color: #fff;
+        color: white;
         cursor: pointer;
         border-radius: 3px;
         outline: none; }
@@ -167,7 +167,7 @@
         font-size: 15px;
         border: 0px;
         background: #2a623d;
-        color: #fff;
+        color: white;
         cursor: pointer;
         border-radius: 3px;
         outline: none; }
@@ -193,7 +193,7 @@
 
 @media only screen and (max-width: 480px) {
   .indexHeader {
-    background: url(/img/aurora_cure_for_me_3.png);
+    background: url("../img/aurora_cure_for_me_3.png");
     background-repeat: no-repeat;
     height: 700px; }
     .indexHeader h1 {
@@ -246,7 +246,7 @@
     height: 550px;
     left: 30px;
     bottom: -80px;
-    background: #fff;
+    background: white;
     padding: 30px;
     margin-top: 100px;
     width: 100%;
@@ -313,7 +313,7 @@
       font-size: 15px;
       border: 0px;
       background: #2a623d;
-      color: #fff;
+      color: white;
       cursor: pointer;
       border-radius: 3px;
       outline: none; }
@@ -336,7 +336,7 @@
 @media screen and (min-width: 700px) {
   /* DOCUMENTARY - HTML*/
   .docu .DOC {
-    background: #fff;
+    background: white;
     margin: 50px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
     padding: 30px;
@@ -383,7 +383,7 @@
     display: none; }
   .DOC {
     width: 350px;
-    background: #fff;
+    background: white;
     margin: 50px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
     padding: 30px;
@@ -456,7 +456,7 @@
     100% {
       left: -400%; } }
   .gallery-footer {
-    background-image: url("/img/gallery/horizontal-bottom.jpg");
+    background-image: url("../img/gallery/horizontal-bottom.jpg");
     background-position: left;
     background-color: black;
     background-repeat: no-repeat;
@@ -478,7 +478,7 @@
   .galleryE {
     background-color: black; }
   .gallery-footer {
-    background-image: url("/img/gallery/horizontal-bottom.jpg");
+    background-image: url("../img/gallery/horizontal-bottom.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-position-y: 0px;
@@ -514,7 +514,8 @@
     height: 530px; }
   .videoBott {
     position: absolute;
-    bottom: 0; } }
+    bottom: 0;
+    background-color: black; } }
 
 @media screen and (min-width: 700px) {
   /*SPOTIFY*/
@@ -580,7 +581,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #ffff;
+    color: white;
     font-size: 16px;
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
@@ -627,7 +628,7 @@
 @media only screen and (max-width: 480px) {
   .TourBck {
     background-color: #8dc3d4;
-    color: #ffff;
+    color: white;
     font-size: 16px;
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
@@ -699,7 +700,7 @@ body {
   background-color: #686599c5; }
 
 .index-html-body {
-  background-image: url(/img/Screenshot-1245.png); }
+  background-image: url("../img/Screenshot-1245.png"); }
 
 /*PHONE*/
 /*LAPTOP*/
@@ -772,13 +773,13 @@ body {
 
 .button-404 {
   text-align: center;
-  color: #fff;
+  color: white;
   text-align: center; }
 
 button {
   position: relative;
   border: 2px solid white;
-  color: #FFF;
+  color: white;
   background: none;
   margin: 25px;
   padding: 10px 35px;

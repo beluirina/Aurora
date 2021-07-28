@@ -24,7 +24,7 @@ nav.explore{
     height: 100px;
 }
 .galleryE{
-    background-color: black;
+    background-color: $b;
 
 }
 
@@ -74,9 +74,9 @@ nav.explore{
 	}
 }
 .gallery-footer{
-    background-image: url("/img/gallery/horizontal-bottom.jpg");
+    background-image: url("../img/gallery/horizontal-bottom.jpg");
     background-position: left;
-	background-color: black;
+	background-color: $b;
     background-repeat: no-repeat;
     background-position-y: -25px;
     height: 80px;
@@ -104,12 +104,12 @@ nav.explore{
     height: 100px;
 }
 .galleryE{
-    background-color: black;
+    background-color: $b;
 
 }
 .gallery-footer{
-    background-image: url("/img/gallery/horizontal-bottom.jpg");
-	background-color: black;
+    background-image: url("../img/gallery/horizontal-bottom.jpg");
+	background-color: $b;
     background-repeat: no-repeat;
     background-position-y: 0px;
 	background-position-x: -400px;

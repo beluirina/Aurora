@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #ffff;
+    color: $w;
     font-size: 16px;
     line-height: 1.5;
     font-family: "helvetica neue",helvetica,arial,sans-serif;
@@ -29,7 +29,7 @@
     padding-left: 5%;
     width: 300px;
         .event-details{
-        background-color: white;
+        background-color: $w;
         width: 200px;
         padding: 5%;
         .primary-detail{
@@ -51,7 +51,7 @@
         }
         .tag-canceled{
             background-color: red;
-            color: white;
+            color: $w;
         }
     }
 }
@@ -66,7 +66,7 @@ ul{
 @media only screen and (max-width: 480px) {
     .TourBck {
         background-color: rgb(141, 195, 212);
-        color: #ffff;
+        color: $w;
         font-size: 16px;
         line-height: 1.5;
         font-family: "helvetica neue",helvetica,arial,sans-serif;
@@ -97,19 +97,19 @@ ul{
         padding-left: 5%;
         width: 300px;
         .event-details{
-            background-color: white;
+            background-color: $w;
             width: 200px;
             padding: 5%;
             .tag-canceled{
                 background-color: red;
-                color: white;
+                color: $w;
             }
             .tag-canceled{
                 font-size: 120%;
                 padding: 7px;
             }
             .primary-detail{
-                color: black;
+                color: $b;
                 font-weight: bold;
                 font-family: 150%;
             }
@@ -119,7 +119,7 @@ ul{
                 font-weight: 30mm;
             }
             .secondary-detail{
-                color: black;
+                color: $b;
             }
         }
     

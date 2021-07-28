@@ -1,7 +1,7 @@
 @media screen and (min-width: 700px) {
     /*MUSIC VIDEO - HTML*/
     nav.black{
-        background: black;
+        background: $b;
         height: 80px;
 
     }
@@ -22,7 +22,7 @@
 @media only screen and (max-width: 480px) {
     /*MUSIC VIDEO*/
     nav.black{
-        background: black;
+        background: $b;
         height: 100px;
 
     }
@@ -37,5 +37,6 @@
     .videoBott{
         position: absolute;
         bottom: 0;
+        background-color: $b;
     }
 }
