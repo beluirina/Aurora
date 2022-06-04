@@ -3,7 +3,7 @@
 
 Web page for Artist Aurora. Project develop to practice concepts such as - wireframes, responsive design (mobile, tablet, pc), SASS @imports - variables, and more. 
 
-# # Pages:
+## Pages:
 
 | Page | THEME |
 | ------ | ------ |
@@ -16,5 +16,5 @@ Web page for Artist Aurora. Project develop to practice concepts such as - wiref
 | Store | [From official webpage - not developed by user Beluirina] |
 
 
-# # Webpage Demo
+## Webpage Demo
 🔗 - (https://beluirina.github.io/Aurora/)
