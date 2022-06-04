@@ -598,7 +598,7 @@
   #tourdates {
     display: flex;
     flex-flow: column wrap;
-    column-gap: 10px;
+    margin: 5px;
     row-gap: 5px;
     font-size: 14px;
     height: 600px;
