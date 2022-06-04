@@ -415,7 +415,9 @@
     display: grid;
     grid-template-columns: 10%;
     grid-template-rows: 160px 190px 250px 100px;
-    grid-template-areas: "pic1" "pic1" "pic2"; }
+    grid-template-areas: "pic1"
+ "pic1"
+ "pic2"; }
     .display-grid .pic1 {
       grid-area: pic1; }
     .display-grid .pic2 {
@@ -597,6 +599,7 @@
     display: flex;
     flex-flow: column wrap;
     column-gap: 10px;
+    row-gap: 5px;
     font-size: 14px;
     height: 600px;
     padding-top: 30px;
